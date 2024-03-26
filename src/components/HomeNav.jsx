@@ -1,7 +1,8 @@
 function HomeNav() {
   return (
     <>
-      <nav className="nav">
+    <header className="header">
+    <nav className="nav">
         <div className="nav-links">
           <ul>
             <li>
@@ -16,11 +17,14 @@ function HomeNav() {
             <li>
               <a href="#">LEARN</a>
             </li>
-            <button>Get the app</button>
+            <a href="!#">
+              <button className="get-app-button">Get the app</button>
+            </a>
           </ul>
-          
         </div>
       </nav>
+    </header>
+      
     </>
   );
 }
