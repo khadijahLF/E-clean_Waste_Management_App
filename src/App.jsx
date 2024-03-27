@@ -1,13 +1,18 @@
 import HomeNav from "./components/HomeNav"
 import Home from "./components/Home"
+import OurServices from "./components/OurServices"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-       <HomeNav/>
-       <Home/>
-    </>
-  )
+    <Router>
+     
+      <Routes> 
+        <Route path="/" element={<HomeNav />} />
+        <Route path="/services" element={<OurServices />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App
