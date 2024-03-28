@@ -35,7 +35,7 @@ nav {
   position: relative;
 }
 .nav-links ul li a {
-  /* color: white; */
+  color: white; 
   text-decoration: none;
   font-size: 18px;
 }
@@ -74,20 +74,25 @@ nav {
 }
 
 .text-box {
-  width: 90%;
-  /* color: white; */
+  color: white;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  text-align: cent;
-}
-.text-box h1 {
-  font-size: 62px;
+  margin-left: 100px;
+  text-align: left; 
+  
 }
 
+.text-box h1 {
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: 100px; 
+}
+
+
 .text-box p {
-  margin: 10px 0 40px;
+  
   font-size: 14px;
   /* color: white; */
 }
@@ -284,3 +289,4 @@ img {
   color: #FFC145;
   font-size: 12px;
 }
+
