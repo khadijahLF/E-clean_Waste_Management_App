@@ -112,20 +112,20 @@ nav {
 
 
 
-/* styles.css */
+
 .our-services {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  padding-left: 120px; 
+  padding-right: 120px;
 }
 
 .columns-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding-left: 120px; 
-  padding-right: 120px; 
+  width: 100%; 
   height: 375px;
 }
 
@@ -153,8 +153,6 @@ img {
   align-items: center;
   width: 100%;
   margin-bottom: 0%;
-  padding-left: 120px; 
-  padding-right: 120px;
   padding-bottom: 20px;
 }
 
@@ -164,4 +162,125 @@ img {
   border-radius: 30px;
   padding: 8px;
   font-size: 10px;
+}
+
+.centered-image-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color:#F1FFFB;
+  padding-left: 120px; 
+  padding-right: 120px;
+  
+}
+
+.left-text,
+.right-text {
+  flex: 1;
+  padding: 20px;
+  display: inline-block; /* Display left-text as inline-block */
+  margin-right: 10px; /* Add margin to separate left-text and box */
+}
+
+.left-text h2,
+.right-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-text p,
+.right-text p {
+  font-size: 11px;
+}
+
+.left1,.left2, .right1, .right2{
+  padding: 20px;
+}
+
+.left1 > p {
+  padding-left: 30px;
+}
+
+.left2 > p{
+  padding-left: 30px ;
+}
+
+.right1 > p{
+  padding-left: 28px;
+}
+
+.right2 > p{
+    padding-left: 30px;
+}
+
+.image-container img {
+  width: 230px; 
+  height: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.title-center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 35px;
+}
+
+.Gen-div{
+  background-color: #F1FFFB;
+  margin-top: 70px;
+  padding-top: 90px;
+}
+
+.why-eclean{
+  color:#0D5C46;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 12px;
+}
+
+.underline_txt{
+  border-bottom: 2px solid #FFC145;
+}
+
+.box1{
+  border: 2px solid #FFC145;
+  float: left;
+  font-size: 10px;
+  font-weight:700;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+.left-items{
+  margin-right: 10px;
+}
+
+.achievement-container {
+  display: flex;
+  height: 180px;
+  background-image:url('../src/assets/Ourachievementimage.png');
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  padding-left: 140px;
+  padding-right: 140px;
+  align-items: center;
+}
+
+.achievement-item {
+  flex: 1;
+  background-color: #0d5c46;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  height: 100px;
+}
+
+.achievement-item > p{
+  color: #FFC145;
+  font-size: 12px;
 }
