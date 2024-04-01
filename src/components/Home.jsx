@@ -7,6 +7,9 @@ function Home() {
       Finger tips</h1>
     </div>
     <p>Get Rid, Get Green, Go Clean!</p>
+    <div className="man">
+      <img src="" alt="" />
+    </div>
     </>
   );
 }
