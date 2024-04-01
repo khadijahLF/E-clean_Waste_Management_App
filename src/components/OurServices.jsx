@@ -3,6 +3,7 @@ import React from 'react';
 import Column from './Column';
 import CenteredImageSection from './CenteredImageSection';
 import Achievement from './Achievement';
+import Footer from './Footer';
 
 
 const OurServices = ({ title }) => {
@@ -37,6 +38,8 @@ const OurServices = ({ title }) => {
       <CenteredImageSection/>
 
       <Achievement/>
+
+      <Footer />
         
       </>
   );

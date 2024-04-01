@@ -86,7 +86,7 @@ nav {
 
 .text-box h1 {
   font-size: 54px;
-  line-height: 54px;
+  line-height: 60px;
   font-weight: 100px; 
 }
 
@@ -289,4 +289,108 @@ img {
   color: #FFC145;
   font-size: 12px;
 }
+
+/* Footer.css */
+
+.footer {
+  background-color: #041C15;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  margin-top:100px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 160px;
+  
+}
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+.footer-logo{
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+
+.footer-column h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul li  {
+  font-size: 10px;
+}
+
+.footer-column p{
+  font-size: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.p-logo{
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social-icons a i {
+  background-color: #fff;
+  color: #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Playstore-imgs{
+width: 80px;
+height: auto;
+}
+
+.footer-right{
+  background-color: #041C15;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+ border-top: #fff 1px;
+}
+
+.footer-right p {
+  color: #fff;
+  padding: 20px;
+}
+
+.Playstore-imgs {
+  display: flex; 
+}
+
+.Playstore-imgs img {
+  margin-right: 10px; 
+}
+
 
