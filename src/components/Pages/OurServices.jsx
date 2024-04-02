@@ -4,6 +4,7 @@ import Column from '../Layouts/Column';
 import CenteredImageSection from '../Layouts/CenteredImageSection';
 import Achievement from '../Layouts/Achievement';
 import Footer from '../Layouts/Footer';
+import Dispose from '../Layouts/Dispose';
 
 
 const OurServices = ({ title }) => {
@@ -38,6 +39,8 @@ const OurServices = ({ title }) => {
       <CenteredImageSection/>
 
       <Achievement/>
+
+      <Dispose />
 
       <Footer />
         
