@@ -40,7 +40,7 @@ const CenteredImageSection = ({ imageSrc, leftText, rightText }) => {
                 </div>
             </div>
 
-            <div className="image-container">
+            <div className="centerImg">
                 <img src="src\assets\Frame 80.png" alt="Centered Image" />
             </div>
 

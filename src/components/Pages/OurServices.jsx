@@ -5,6 +5,7 @@ import CenteredImageSection from '../Layouts/CenteredImageSection';
 import Achievement from '../Layouts/Achievement';
 import Footer from '../Layouts/Footer';
 import Dispose from '../Layouts/Dispose';
+import News from '../Layouts/News';
 
 
 const OurServices = ({ title }) => {
@@ -39,6 +40,8 @@ const OurServices = ({ title }) => {
       <CenteredImageSection/>
 
       <Achievement/>
+
+      <News />
 
       <Dispose />
 
