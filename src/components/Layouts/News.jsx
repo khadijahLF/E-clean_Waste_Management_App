@@ -4,10 +4,12 @@ const News = () => {
   return (
     <>
 
-   <div className='newsContainer'>
-   <div className='Newheader'>
+    <div className='Newheader'>
         <h3>Recent News and Articles</h3>
     </div>
+
+   <div className='newsContainer'>
+   
 
     <div className="news-container">
       <div className="image-container">

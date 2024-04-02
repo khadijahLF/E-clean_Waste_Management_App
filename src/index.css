@@ -463,15 +463,16 @@ height: auto;
   color: #FFC145;
 }
 
+/* News CSS*/
 .news-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start; /* Start both divs at the same column */
   align-items: start;
-  column-gap:40px;
+  column-gap:60px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 42%;
   transform: translate(-50%, -50%);
 
 }
@@ -486,8 +487,8 @@ height: auto;
 }
 
 .image-container img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 }
 
 .text-container {
@@ -507,7 +508,7 @@ height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:300px;
+  width:350px;
 }
 
 .blogandp{
@@ -516,7 +517,7 @@ height: auto;
 }
 
 .row-item img {
-  width: 100px;
+  width: 120px;
   margin-right: 10px;
   margin-bottom: 13px;
 }
@@ -529,9 +530,10 @@ height: auto;
 
 .Newheader{
   font-size: 20px;
-  padding-left: 290px;
+  margin-left: 130px;
   margin-top: 50px;
   font-weight: 300;
+
 }
 
 .imagetext {
@@ -575,3 +577,65 @@ height: auto;
 .date {
   margin-left: 25px; 
 }
+
+/*Testimonial styling*/
+
+.testimonial {
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 130px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.testimonial-item {
+  width: 260px; 
+  background-color: #F1FFFB;
+  height: 200px;
+  padding: 20px;
+}
+
+
+.stars {
+  font-size: 20px;
+  color: #FFC145; 
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 13px; 
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.author-image {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  margin-right: 10px; 
+}
+
+.author-name{
+  font-weight: 600;
+  color: #2F2F2F;
+}
+
+.testimonial-head p{
+  font-size: 9px;
+  color: #0D5C46;
+}
+
+.testimonial-head h2{
+  color:#041C15 ;
+}
+
+.testimonial-head{
+  padding: 5px;
+  padding-left: 150px;
+  margin-top: 50px;
+}
+
