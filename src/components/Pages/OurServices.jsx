@@ -1,9 +1,9 @@
 // OurServices.js
 import React from 'react';
-import Column from './Column';
-import CenteredImageSection from './CenteredImageSection';
-import Achievement from './Achievement';
-import Footer from './Footer';
+import Column from '../Layouts/Column';
+import CenteredImageSection from '../Layouts/CenteredImageSection';
+import Achievement from '../Layouts/Achievement';
+import Footer from '../Layouts/Footer';
 
 
 const OurServices = ({ title }) => {

@@ -298,7 +298,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   height: 250px;
-  margin-top:150px;
   align-items: flex-start;
   justify-content: flex-start;
   padding:  70px 140px  0px 130px;
