@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Footer = () => {
   return (
     <>
@@ -36,20 +37,20 @@ const Footer = () => {
           <li>Email address</li>
           <li>Phone Number</li>
         </ul>
-      </div>
-      <div className="social-icons">
+        <div className="social-icons">
         <a href="#"><i className="fab fa-facebook-f"></i></a>
         <a href="#"><i className="fab fa-twitter"></i></a>
         <a href="#"><i className="fab fa-instagram"></i></a>
         <a href="#"><i className="fab fa-linkedin-in"></i></a>
       </div>
-  
-      
+      </div>
     </footer>
-    <div className='footer-right'>
-    <hr />
-      <p>© EClean 2024, All Right Reserved.</p>
-    </div>
+
+    <div className="footer-copy">
+        <hr />
+          <p>© EClean 2024, All Right Reserved.</p>
+      </div>
+    
     </>
   );
 };
