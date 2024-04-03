@@ -1,6 +1,8 @@
 import React from 'react'
 import HomeNav from '../Layouts/HomeNav'
 import Recycleservices from '../Layouts/Recycleservices'
+import Footer from '../Layouts/Footer'
+import GetStarted from '../Layouts/GetStarted'
 
 const Services = () =>  {
   return (
@@ -13,6 +15,8 @@ const Services = () =>  {
             </div>
         </div>
         <Recycleservices/>
+        <GetStarted/>
+        <Footer/>
 
     </>
 

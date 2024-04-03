@@ -32,11 +32,11 @@ const Recycleservices = () => {
             <div className="content-recycle-container">
 
                 <div className='recyclePara'>
-                    <p>What We Do</p>
+                    <p>Pay for Your Waste</p>
                 </div>
 
-                <h2>Recycling Service</h2>
-                <p>Turn your recyclable materials into cash with our easy-to-use recycling service. Simply schedule pickup or drop off of your recyclables and we will ensure they are responsibly recycled. After we receive your items, you will receive monetary value in your wallet.</p>
+                <h2>Waste Disposal Services</h2>
+                <p>Dispose of your waste responsibly with our App. Whether you have household items, electronic waste, or other materials to get rid of, we make it easy. Find nearby disposal centers, schedule drop-offs, or arrange for a pickup. We'll handle the rest, ensuring your waste is properly managed and disposed of.</p>
                 <button>Download App</button>
             </div>
             
@@ -46,7 +46,47 @@ const Recycleservices = () => {
             </div>
 
         </div>
+
+        <div className="recycle-containerC">
+            
+                <div className="recycleimage">
+                    <img src="src\assets\Frame 146.png" alt="man" />
+                </div>
+
+                <div className="content-recycle-container">
+
+                    <div className='recyclePara'>
+                        <p>What We Do</p>
+                    </div>
+
+                    <h2>Community Initiatives</h2>
+                    <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
+                    <button>Download App</button>
+                </div>   
+
+        </div>
+
+        <div className="recycle-containerD">
+
+                <div className="content-recycle-container">
+
+                    <div className='recyclePara'>
+                        <p>What We Do</p>
+                    </div>
+
+                    <h2>Community Initiatives</h2>
+                    <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
+                    <button>Download App</button>
+                </div>   
+
+                <div className="recycleimage">
+                    <img src="src\assets\Frame 146.png" alt="man" />
+                </div>
+
+        </div>
+
     </div>
+
     </>
   );
 };
