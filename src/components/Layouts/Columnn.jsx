@@ -1,7 +1,7 @@
-// Column.js
+
 import React from 'react';
 
-const Column = ({ imageSrc, text }) => {
+const Columnn = ({ imageSrc, text }) => {
   return (
     <div className="column">
       <img src={imageSrc} alt="Column Image" />
@@ -10,4 +10,4 @@ const Column = ({ imageSrc, text }) => {
   );
 };
 
-export default Column;
+export default Columnn;

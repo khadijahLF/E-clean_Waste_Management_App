@@ -5,20 +5,23 @@ function HomeNav() {
   return (
     <>
       <header className="header">
+        <div className='header-logo'>
+          <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
+        </div>
         <nav className="nav">
           <div className="nav-links">
             <ul>
               <li>
-                <Link to="/">HOME</Link>
+                <Link to="/" className='active'>Home</Link>
               </li>
               <li>
-                <Link to="/services">SERVICES</Link>
+                <Link to="/services" className='active'>Services</Link>
               </li>
               <li>
-                <Link to="#">ABOUT US</Link>
+                <Link to="#">About Us</Link>
               </li>
               <li>
-                <Link to="#">LEARN</Link>
+                <Link to="#">Resources</Link>
               </li>
               <Link to="!#">
                 <button className="get-app-button">Get the app</button>
@@ -27,13 +30,6 @@ function HomeNav() {
           </div>
         </nav>
       </header>
-
-      <div className="text-box">
-        <h1>Eco-friendly Waste Solution <br />
-        at Your Finger tips</h1>
-        <p>Get Rid, Get Green, Go Clean!</p>
-      
-      </div>
     </>
 
   );

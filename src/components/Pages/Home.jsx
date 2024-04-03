@@ -1,22 +1,31 @@
 
 import React from 'react';
-import Column from '../Layouts/Column';
+import Column from '../Layouts/Columnn';
 import CenteredImageSection from '../Layouts/CenteredImageSection';
 import Achievement from '../Layouts/Achievement';
 import Footer from '../Layouts/Footer';
 import Dispose from '../Layouts/Dispose';
 import News from '../Layouts/News';
 import Testimonial from '../Layouts/Testimonial';
+import Revolution from '../Layouts/Revolution';
+import HomeNav from '../Layouts/HomeNav';
+import Hero from '../Layouts/Hero';
 
 
 const Home = ({ title }) => {
   return (
   
       <>
+
+          <HomeNav/>
+          <Hero/>
+
+          <Revolution/>
+
           <div className="our-services">
 
             <div className="title-container">
-              <h1>What We Are Offering</h1>
+              <h2>What We Are Offering</h2>
               <button className="btn">Download App</button>
             </div>
 
@@ -24,27 +33,30 @@ const Home = ({ title }) => {
             
               <Column
                 imageSrc="src\assets\plastic.png"
+                header="Recycling Service"
                 text="Turn your recyclables into rewards! Simply upload photos, schedule a pickup, and get paid for your contribution to a sustainable future. It's easy, convenient, and environmentally friendly"
               />
               <Column
                 imageSrc="src\assets\Image 4 (1).png"
+                header="Waste Disposal Service"
                 text="Dispose of your waste responsibly with EClean. Find nearby disposal centers, drop-off points, or schedule a pickup. Let's keep our communities clean and green together."
               />
               <Column
                 imageSrc="src\assets\Image 5 (1).png"
                 text="Join us in making a difference! From educational workshops to cleanup drives, we're committed to fostering a culture of sustainability. Together, let's create a positive impact on our environment."
+                
               />
             </div>
         
           </div>
       
-      <CenteredImageSection/>
+          <CenteredImageSection/>
 
-      <Achievement/>
+          <Achievement/>
 
-      <Testimonial/>
+          <Testimonial/>
 
-      <News />
+          <News />
 
       <Dispose />
 
