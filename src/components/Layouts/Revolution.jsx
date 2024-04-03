@@ -16,7 +16,7 @@ const Revolution = () => {
             <div className="content-container">
 
                 <div className='revPara'>
-                    <p>What We Do</p>
+                    <p className='underline_txt'>What We Do</p>
                 </div>
 
                 <h2>Revolutionizing Waste <br/> Management Practices</h2>
