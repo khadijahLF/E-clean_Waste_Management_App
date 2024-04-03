@@ -954,6 +954,28 @@ button {
   padding-left: 130px;
 }
 
+.column-wrapper {
+  position: relative;
+}
+
+.icon-square {
+  position: absolute;
+  top: 170px; 
+  left: 10px; 
+  width: 50px; 
+  height: 50px; 
+  background: hsla(163, 75%, 21%, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-left: 10px;
+}
+
+.icon-square img {
+  width: 50%; 
+  height: auto;
+}
 
 .offering-title{
   display: flex;
