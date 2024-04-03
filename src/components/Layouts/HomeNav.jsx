@@ -18,7 +18,7 @@ function HomeNav() {
                 <Link to="/services" className='active'>Services</Link>
               </li>
               <li>
-                <Link to="#">About Us</Link>
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li>
                 <Link to="#">Resources</Link>

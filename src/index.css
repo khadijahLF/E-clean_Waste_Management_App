@@ -292,9 +292,10 @@ img {
   font-size: 12px;
 }
 
-.underline_txt {
-  border-bottom: 2px solid #ffc145;
-}
+.underline_txt{
+  border-bottom: 2px solid #FFC145;
+  width: 100px;}
+
 
 .box1 {
   border: 2px solid #ffc145;
@@ -827,4 +828,159 @@ button {
   padding: 10px 20px;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.recycle-containerC{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  column-gap: 60px;
+  flex:1;
+  margin-bottom: 70px;
+  background-color: #F1FFFB;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.recycle-containerD{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  column-gap: 60px;
+  flex:1;
+  margin-bottom: 70px;
+  background-color: #FFF7E5;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Get Started*/
+.container-get {
+  background: url('src/assets/Mask group.png');
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+
+.content-get {
+  text-align: center;
+  
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.images img {
+  width: 100px;
+  margin: 0 5px;
+}
+
+.container-get::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; 
+}
+
+.container-get img {
+  position: relative; 
+  z-index: 2; 
+}
+
+.container-get h1{
+  color:hsla(0, 0%, 100%, 1);
+  z-index: 3;
+  position: relative;
+}
+
+.container-get p{
+  color:hsla(0, 0%, 100%, 1);
+  z-index: 3;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  width: 650px;
+  font-size: 12px;
+}
+
+.content-get p span{
+  color: #FFC145;
+}
+
+.container-get button{
+  z-index: 4;
+  background-color: #fff;
+}
+
+/*Offering component css*/
+.Offering-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offering-container {
+    display: flex;
+    width: 80%;
+}
+
+.offer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 89%;
+  margin-bottom: 20px; 
+  padding-left: 130px;
+}
+
+
+.offering-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-header button{
+  background-color: #0D5C46;
+  color: #fff;
+}
+
+.column {
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.column-text{
+  padding: 20px;
+}
+
+.column p {
+  font-size: 14px;
+  color:#041C15;
+  text-align: left;
 }
