@@ -27,8 +27,11 @@ nav {
   text-align: right;
 }
 
+
+
 .nav-links ul li a:active {
   color: #ffc145;
+  font-weight: bold;
 }
 /* nav links styling */
 .nav-links ul li {
@@ -202,6 +205,7 @@ img {
   padding: 8px;
   font-size: 10px;
 }
+
 
 .centered-image-section {
   display: flex;
@@ -734,6 +738,12 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  border: 1px solid #ffc145;
+  background: #ffc145;
+  transition: 1s;
+}
+
 /*Service page css*/
 
 .container-ser {
@@ -929,8 +939,14 @@ button {
 }
 
 .container-get button{
-  z-index: 4;
   background-color: #fff;
+  cursor: pointer;
+}
+
+.get-btn:hover{
+  border: 1px solid #ffc145;
+  background: #ffc145;
+  transition: 1s;
 }
 
 /*Offering component css*/
@@ -985,6 +1001,12 @@ button {
 .offer-header button{
   background-color: #0D5C46;
   color: #fff;
+}
+
+.offer-header button:hover{
+  border: 1px solid #ffc145;
+  background: #ffc145;
+  transition: 1s;
 }
 
 .column {
