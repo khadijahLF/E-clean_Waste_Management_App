@@ -284,8 +284,8 @@ img {
   font-size: 12px;
 }
 
-.our-serviceP{
-  color:#0D5C46;
+.our-serviceP {
+  color: #0d5c46;
   display: flex;
   text-align: left;
   padding: 15px;
@@ -295,13 +295,12 @@ img {
   margin-top: 60px;
 }
 
-.underline_txt{
-  border-bottom: 2px solid #FFC145;
+.underline_txt {
+  border-bottom: 2px solid #ffc145;
   font-size: 12px !important;
   width: 85px;
   padding-bottom: 1px;
 }
-
 
 .box1 {
   border: 2px solid #ffc145;
@@ -801,30 +800,77 @@ h1 {
   line-height: 20px;
 }
 
-.about-us-container {
-  background: url();
-  width: 286px;
-  height: 73px;
-  top: 231px;
-  left: 577px;
-  gap: 0px;
-  opacity: 0px;
-}
 /* About us styling starts here */
+.about-us-container {
+  background: url("https://img.freepik.com/free-photo/closeup-hands-separating-plastic-bottles_53876-46918.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .about-us-content h1 {
-  font-family: Montserrat;
   font-size: 60px;
   font-weight: 600;
   line-height: 73.14px;
-  text-align: left;
+  color: #fff;
 }
 
 .about-us-content p {
-  font-family: Montserrat;
   font-size: 20px;
   font-weight: 400;
   line-height: 24.38px;
-  text-align: left;
+  color: #fff;
+}
+.mission-container{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  /* float: left; */
+  /* width: 50%; */
+}
+.mission-texts {
+width: Hug (512px)px;
+height: Hug (389px)px;
+gap: 20px;
+opacity: 0px;
+}
+.mission-texts p{
+ /* font-size: 18px; */
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+
+.mission-heading h4{
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+
+}
+
+.mission-texts h3{
+ /* font-size: 40px; */
+font-weight: 600;
+line-height: 48.76px;
+text-align: left;
+color: black;
+
+}
+
+.mission-image {
+  background: url("closeup-hands-separating-plastic-bottles.png");
+  width: 550px;
+  height: auto;
+  margin-top: 137.24px;
+  margin-left: 146.59px;
+  gap: 0px;
 }
 /* About us styling ends here */
 
@@ -837,29 +883,29 @@ button {
   cursor: pointer;
 }
 
-.recycle-containerC{
+.recycle-containerC {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   margin-top: 30px;
   column-gap: 60px;
-  flex:1;
+  flex: 1;
   margin-bottom: 70px;
-  background-color: #F1FFFB;
+  background-color: #f1fffb;
   min-height: 100px;
   align-items: center;
   justify-content: center;
 }
 
-.recycle-containerD{
+.recycle-containerD {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   margin-top: 30px;
   column-gap: 60px;
-  flex:1;
+  flex: 1;
   margin-bottom: 70px;
-  background-color: #FFF7E5;
+  background-color: #fff7e5;
   min-height: 100px;
   align-items: center;
   justify-content: center;
@@ -867,19 +913,18 @@ button {
 
 /*Get Started*/
 .container-get {
-  background: url('src/assets/Mask group.png');
+  background: url("src/assets/Mask group.png");
   background-size: contain;
   width: 100%;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; 
+  position: relative;
 }
 
 .content-get {
   text-align: center;
-  
 }
 
 .images {
@@ -894,28 +939,28 @@ button {
 }
 
 .container-get::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .container-get img {
-  position: relative; 
-  z-index: 2; 
+  position: relative;
+  z-index: 2;
 }
 
-.container-get h1{
-  color:hsla(0, 0%, 100%, 1);
+.container-get h1 {
+  color: hsla(0, 0%, 100%, 1);
   z-index: 3;
   position: relative;
 }
 
-.container-get p{
-  color:hsla(0, 0%, 100%, 1);
+.container-get p {
+  color: hsla(0, 0%, 100%, 1);
   z-index: 3;
   position: relative;
   padding-top: 15px;
@@ -924,25 +969,25 @@ button {
   font-size: 12px;
 }
 
-.content-get p span{
-  color: #FFC145;
+.content-get p span {
+  color: #ffc145;
 }
 
-.container-get button{
+.container-get button {
   z-index: 4;
   background-color: #fff;
 }
 
 /*Offering component css*/
-.Offering-parent{
+.Offering-parent {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .offering-container {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
 
 .offer-header {
@@ -950,18 +995,17 @@ button {
   justify-content: space-between;
   align-items: center;
   width: 89%;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   padding-left: 130px;
 }
 
-
-.offering-title{
+.offering-title {
   display: flex;
   justify-content: space-between;
 }
 
-.offer-header button{
-  background-color: #0D5C46;
+.offer-header button {
+  background-color: #0d5c46;
   color: #fff;
 }
 
@@ -982,12 +1026,12 @@ button {
   text-align: left;
 }
 
-.column-text{
+.column-text {
   padding: 20px;
 }
 
 .column p {
   font-size: 14px;
-  color:#041C15;
+  color: #041c15;
   text-align: left;
 }

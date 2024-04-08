@@ -1,6 +1,7 @@
 import React from "react";
 import HomeNav from "../Layouts/HomeNav";
 import Footer from "../Layouts/Footer";
+import OurMission from "../Layouts/OurMission";
 
 function AboutUs() {
   return(
@@ -12,7 +13,9 @@ function AboutUs() {
           <p>Constantly working for a clean tomorrow!</p>
         </div>
       </div>
-      <Footer/>
+      <OurMission/>
+      <br /><br />
+       <Footer/>
     </>
   )
 }
