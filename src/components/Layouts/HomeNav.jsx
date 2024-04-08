@@ -12,16 +12,16 @@ function HomeNav() {
           <div className="nav-links">
             <ul>
               <li>
-                <Link to="/" className='active'>Home</Link>
+                <Link to="/" >Home</Link>
               </li>
               <li>
-                <Link to="/services" className='active'>Services</Link>
+                <Link to="/services" >Services</Link>
               </li>
               <li>
                 <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link to="#">Resources</Link>
+                <Link to="/resources">Resources</Link>
               </li>
               <Link to="!#">
                 <button className="get-app-button">Get the app</button>

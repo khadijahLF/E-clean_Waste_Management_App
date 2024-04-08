@@ -27,8 +27,11 @@ nav {
   text-align: right;
 }
 
+
+
 .nav-links ul li a:active {
   color: #ffc145;
+  font-weight: bold;
 }
 /* nav links styling */
 .nav-links ul li {
@@ -202,6 +205,7 @@ img {
   padding: 8px;
   font-size: 10px;
 }
+
 
 .centered-image-section {
   display: flex;
@@ -733,6 +737,12 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  border: 1px solid #ffc145;
+  background: #ffc145;
+  transition: 1s;
+}
+
 /*Service page css*/
 
 .container-ser {
@@ -750,6 +760,7 @@ button {
 h1 {
   text-align: center;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 /*Recycle component css*/
@@ -973,9 +984,17 @@ button {
   color: #ffc145;
 }
 
+.container-get button{
 .container-get button {
   z-index: 4;
   background-color: #fff;
+  cursor: pointer;
+}
+
+.get-btn:hover{
+  border: 1px solid #ffc145;
+  background: #ffc145;
+  transition: 1s;
 }
 
 /*Offering component css*/
@@ -999,7 +1018,30 @@ button {
   padding-left: 130px;
 }
 
-.offering-title {
+.column-wrapper {
+  position: relative;
+}
+
+.icon-square {
+  position: absolute;
+  top: 170px; 
+  left: 10px; 
+  width: 50px; 
+  height: 50px; 
+  background: hsla(163, 75%, 21%, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-left: 10px;
+}
+
+.icon-square img {
+  width: 50%; 
+  height: auto;
+}
+
+.offering-title{
   display: flex;
   justify-content: space-between;
 }
@@ -1007,6 +1049,12 @@ button {
 .offer-header button {
   background-color: #0d5c46;
   color: #fff;
+}
+
+.offer-header button:hover{
+  border: 1px solid #ffc145;
+  background: #ffc145;
+  transition: 1s;
 }
 
 .column {
@@ -1034,4 +1082,142 @@ button {
   font-size: 14px;
   color: #041c15;
   text-align: left;
+}
+
+/*Resource page header*/
+
+.container-resources {
+  background: url("src/assets/resources.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content-resources p,
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+/*Blog component css*/
+.blog-container {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+}
+
+.blog-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blog-row p {
+  width: 23%; 
+  margin: 0; 
+  padding: 50px 40px 50px;
+  font-size: 14px;
+  
+}
+
+/*Blog Component css*/
+
+.blog-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.blog-content-container {
+    display: flex;
+    width: 100%;
+    column-gap: 30px;
+    align-items: center;
+    place-content: center;
+    margin-bottom: 50px;
+}
+
+
+.blog-column-wrapper {
+  position: relative;
+}
+
+.blog-column {
+  width: 280px;
+  height: 340px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #0D5C46;
+  border-radius: 10px;
+}
+
+.blog-column img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-column h6 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.blog-column-text{
+  padding: 10px;
+}
+
+.blog-column p {
+  font-size: 11px;
+  color:#041C15;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.blog-column :nth-child(4){
+  color: #0D5C46;
+  font-size: 9px;
+}
+
+.blog-title2 p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 8px;
+  font-weight: normal;
+  color: #0d5c46;
+}
+
+.blog-title2 p::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #ffc145;
+  margin-right: 10px;
+  position: absolute;
+  left: 30px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.blog-title2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  margin-left: 25px;
 }

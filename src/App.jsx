@@ -4,6 +4,7 @@ import Home from "./components/Pages/Home";
 import Services from "./components/Pages/Services";
 import AboutUs from "./components/Pages/AboutUs";
 import '@fortawesome/fontawesome-free/css/all.css';
+import Resources from './components/Pages/Resources';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/resources" element={<Resources />} />
       </Routes>
     </Router>
   );
