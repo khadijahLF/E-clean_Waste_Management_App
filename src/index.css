@@ -1003,9 +1003,9 @@ rec2-text button {
   gap: 0px;
   border-radius: 16px 0px 0px 0px;
   border: 1px rgba(192, 192, 192, 1);
- }
+}
 
- .swiper {
+.swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1023,7 +1023,6 @@ rec2-text button {
   width: 100%;
 }
 
-
 .swiper-container {
   position: relative;
   width: 50%;
@@ -1037,14 +1036,14 @@ rec2-text button {
 }
 
 .swiper-overlay {
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
+  color: #f1f1f1;
   width: 100%;
-  transition: .5s ease;
-  opacity:0;
+  transition: 0.5s ease;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;
@@ -1054,53 +1053,84 @@ rec2-text button {
 .swiper-container:hover .swiper-overlay {
   opacity: 1;
 }
-/* .team-pictures img {
-  width: 100%;
-  border-radius: 10px;
-}
-.column {
-  float: left;
-  width: 44.4%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 180px;
-  height: 240px;
-  gap: 0px;
-}
-
-.container {
-  padding: auto 26px;
-}
-
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: rgba(255, 193, 69, 1);
-} */
-
-/* .button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
+.our-partners h4 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
   text-align: center;
+  margin-top: 50px;
+  color: rgba(4, 28, 21, 1);
+}
+.partners-logo {
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  row-gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.partners-logo img {
+  width: 100px;
   cursor: pointer;
+}
+.faq-heading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  text-align: center;
+  color: rgba(4, 28, 21, 1);
+}
+.faq-container {
+  /* border: 2px solid #041c15; */
+  display: grid;
+  flex-wrap: nowrap;
+  row-gap: 5rem;
   width: 100%;
+  height: auto;
+  margin-left: 120px;
+  padding: 16px 0px 0px 0px;
+  gap: 0px;
+  justify-content: space-between;
+  /* opacity: 0px; */
 }
 
-.button:hover {
-  background-color: #555;
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(4, 28, 21, 1);
+  line-height: 21.94px;
+  text-align: left;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active, .accordion:hover {
+  background-color: rgba(192, 192, 192, 1);
 } */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  font-size: 12px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+.panel p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(47, 47, 47, 1);
+}
 
 /* About us styling ends here */
 

@@ -1,4 +1,4 @@
-import OurMission from "./OurMission"
+// import OurMission from "./OurMission"
 
 function MissionBody() {
   return(

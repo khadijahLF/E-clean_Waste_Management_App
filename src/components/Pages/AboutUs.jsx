@@ -5,6 +5,7 @@ import OurMission from "../Layouts/OurMission";
 import MissionBody from "../Layouts/MissionBody";
 import MeetTeam from "../Layouts/MeetTeam";
 import OurPartners from "../Layouts/OurPartners";
+import Faq from "../Layouts/Faq";
 
 function AboutUs() {
   return(
@@ -22,6 +23,8 @@ function AboutUs() {
       <br /><br />
       <MeetTeam/>
       <OurPartners/>
+      <Faq/>
+      <br /><br /><br /><br /><br />
        <Footer/>
     </>
   )

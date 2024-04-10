@@ -1,10 +1,21 @@
 function OurPartners(params) {
-  return(
+  return (
     <>
-    <section className="our-partners">
-      <h4>Our Partners</h4>
-    </section>
+      <section className="our-partners">
+        <h4>Our Partners</h4>
+        <div className="partners-logo">
+          <img src="https://s3-alpha-sig.figma.com/img/75f7/5eb7/3fa043443125b3fc49adf19bbcdf0a2f?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ogqcN8cixF9EVlxB1F1Q0L-mUcYLqcUSZhrQX83UF2Duans7CCdeVt8d9KsorBr5~J-wPT4qJf--cTJ1d0vuCZU5-wRs-kOOpVt4~d8qa093wdDqa4C0--cy8ojkTvbns0hVzpk6ocII81vIFWEzcZeHBySU4hAJLZXJAg~bmLgS6LkivfI7JqhFyzGmftCbMmEJ-pwGI5FOLDXkQ6WpLQPBQPgJp0pFm~-wyjsXYiTkGs8MHF7vfWDhFUZnecgFREihHQJRXBeYYHBzVH-Y5wdeIEirxIStgztyjetQCfgM3xfMpG7JPXgAdsxlgUXvzUxp5OQzhzqEo23fTR92kg__" alt="Nigeria Climate Innovation" />
+          <img src="https://s3-alpha-sig.figma.com/img/45d8/4357/ecffb499584a4b178191f7a02b3e2789?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OP7~iZLn2Tu0Knk-qBX2Uvu5BkN2eVIYaNRY6BfLle3L7c-NqbMsiiHoQFu3319z3vFlBA73fXy3o63nvxJx~qB2sQc-IjdTx48R4U8MYmSJ7ccmf2DG70ZBHACAqGYoZPZ7~49LfJjHUWiRG5zshO-8g9BkwGFm5cs9MK3byR5PCDvDZhAjiW6xFVPF8Q7X8upvKiomMjHXOIAN-TpkDqQSNzW120xuqZpMZllU5qvga7W8iYl~zU~dwMBOd~-YsP-O3P0-JzzWYuJcnWByxsydv6BVJ7o3G4ZyF0lpLGUvyuQPkq9m9aQCD2hX6vHHCE576JJRhYg-QVUYO5cKew__" alt="coke" />
+          <img src="https://s3-alpha-sig.figma.com/img/0074/2195/82857dc04a0228e50a5ff003436a5830?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kR7vjB1EpH-lx73B1oSdED~lh6O6JgIvTWB-nwiwkTjcCRSHag86eH6EJxvaIGl-GcyQUPXbKyL4SCMACIZnxAzMOHS1oeYccqq2T~tDMJNpJ7FjlyAJIgZHvqGx1ZhcgZECSzCQ9y7J3ZLH5BeVQDpe-nyQlDsorWr2BnqlosqHHvqGcWAY-DW3ztjt3fBcokNhWCPI8y5p3zW5iBD8~MdVU7MvRbAMnKtIhzgG3Cm785zKMeqoyg2ePaWkS3u-QzD0YfljizP04hp4G~z81uqfG4IfAe81h9srpmtYqOSZjZmHQroOIMTE16nP2Su9A-VGoUrXci6dk~907Y4RfQ__" alt="Lawma" />
+          <img src="https://s3-alpha-sig.figma.com/img/d77e/b9c4/5b4e8e6d7449e76fecc9e47d0316df87?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m8RlCHEoeKCF3uS6X4mkXdbStS-bEOGVXsocB1kn36dVLFO949PVlkrfwpfgTgTHLie1TwF5qopJAkWHRbOmFGK0BYMJE57NyFMemXfscr5a33qir3E7igWNOvgjoz9b7EiSudE557ZyzfWaJMM0tuSGVpHOb6rfL8lWnwupGwqR~zk46iP7JZjM5pyVgN7XUWfxuLXlSFuc1s8Lz0zfhrStvE9J622VgWYGipGmXdRHAvFuy0Jr1rrdtSS3Pr711sqTwY6fn~0lWRh5iDQHal4PY9FJq6XVtLLG3qIWEk9dOFfWh3ItG9ueQ1cRFuPeT75w65j3rfcN9lEsKG9pdw__" alt="Tony Elumelu Foundation" />
+          <img src="https://s3-alpha-sig.figma.com/img/20d7/5ab8/d4b0dcad1495280b734565704ad4b4b3?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=py4CYqENoeYcAcKyLbBYOieeeoSwxOUXXXg0bi-u3CKrx04Cxj3ZB~snOEqCCNO3uLq25bzoIS1orV3HBbbBQDj-uXaaXwbpDdkyLTauvBoXuwF5yllzFuIkgyPbhgPGOMa1P4FvmI8BTFuyCJb~bdxEeQQmbMg49Ea7vgdU7T3cPzLWvzVlrWSDivCthDuMyIj7JJzlMpirOqFHf7JGIQ4~AhZD3ubbhfBfYYNvVHWn~6cKIA4ZKrfcdRDVog0HrQMImcwkSoYcgWCGhZYVXBxZpT5bLbVf-JrdTuMBha~fUpgzQekTzxn5y-JZqqHdlgXunQUP2gnaIan4iVkbCQ__" alt="Access Bank" />
+          <img src="https://s3-alpha-sig.figma.com/img/6e1f/2fb6/58709eab30b474e612fda38e83dbe7cb?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VFTpaSLuz1t-nAfRIxAh~wyX03xM9wjeQKdy4LmA4x81F8VY2DMOxY-vGjXhrswbh1L8V7yL22ylI-zEB9zaDWzSsR3DC6bVqUHL5oydyopdCcshciPUYKq3daSYieYmiG3WRYDUI9YTrGAG8NFJzGnUgbDyc2iuNPidf3YK~SKbR~OIGi65w4JvihRwYaY5c2JiTxDqStnrYZ1J73fkXw96fKjt1CGhKMbHtgA1I~0RW8oajq3dSrA5TbFLNrd3fsq2qfuEvXnYZzBlpE3Xz2D2noalROL3QFOzpkAiOEHGv2l~Ues~mAz3-XbzCvLDptjX9QDXgu1MbsMcZgRj3A__" alt="World Connect" />
+          <img src="https://s3-alpha-sig.figma.com/img/5060/423c/922f9c70b80d1920a29829671d62ed45?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B2i3KQ-VHtkI2MqouVHEpid0W0JnekR35eBooZSbEO5xd6qheGtFnzn-RVTZWiRqIhXamz8GvbSf~sX-TbUNgSV2E-G-dSDH~0uYNRQ3IgpJXOUWNb7Bee~lhwjrB8h0rvatfCYqHbwFYfw-UbZZ-nQVbc-j3jQb~C3Wpjigj3oyS0F4pU4gGTDWpQ8zq0pwmON3UfKhRHc8-mTplRa744qWq6ZEpQJlHy6HmbahRaIMLBkhEpPqpt8qAioNcbKCxJcus4uIQsKogy56gcizI66IUoiXRhn9547fkcZbuWT8ZiSv4tFNYQGcdAflGi4QZDbbckDq5mf75lnHYxnTnw__" alt="Central Park" />
+          <img src="https://s3-alpha-sig.figma.com/img/86c0/f97b/6178aab8590e1a763c7fac7d3920b80c?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bksh7dstGXFoU0QFudUukXurXk9ca0~81anSVUl1QProHNDZzYDewIjVSezKgzPhk2rX5BD6I3cviql7ODzDIVuCd5-kZI2ZYgR0d-QopOEBlrTQxJH6avciq8mnaoPWJpFo5tx4H~EHpQ62sLw5qftwGAZtge7PVHxiiuwJ~HVGBnx6GDIvS2iQM~xOakavb8SGCl5dhtBwW~2mhcgbIJafHpCCVqgP2h~-0M8L2ixclHo1S8DPq9oaSseyhOazhsk8ukNy3vPYA3X0twrUhmS5-a7rvxkoSGY1xjQoKM2bmyJcNwfC9gkj13ZRwgpmFwsCh4-jW2PdvxwEpTKMCg__" alt="RAN" />
+          <img src="https://s3-alpha-sig.figma.com/img/fdb4/b335/905c54810e09e12ac1a6a69ab9f0fa1f?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ou3oDNPr9t4y0NulPZGmW-S2vFup4dyRyD50agbFLAdHegzTRJVtUrBjvtzkgjgs7Rp6CyfqqHMlf9UryMC9QxGIJPcHt5yy2lfUCkGUyGh3W1gCaj0ukv-nML4jvJenfN9f7~svJTsKJikgKbPKV1F9f8VZQZy7716vLF8JTiv1ydXQ--T7Shf--T6Qw3Wzv56BBhTUqhohkw-If-0n84og3F1cdYer7HAI9bSXMkCvRGT~qiTpGoTbPOPkDuaCctH-KMLs-IS-GgmbdgDjCyzCU8kCi1w2u~1WSjRwxiz2L8J~C-NOzw9i7IKwEItoMZ9G3XXXeedQUlGf7L98Uw__" alt="g.e.f" />
+        </div>
+      </section>
     </>
-  )
+  );
 }
-export default OurPartners
+export default OurPartners;
