@@ -951,6 +951,48 @@ rec2-text button {
   background-color: rgba(255, 255, 255, 1);
 }
 
+.team-container {
+  width: 1440px;
+  height: 697px;
+  gap: 0px;
+}
+.team-heading {
+  width: 309px;
+  height: 92px;
+  margin-top: 38px;
+  margin-left: 565.5px;
+  gap: 20px;
+}
+.team-heading h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-align: center;
+  color: rgba(13, 92, 70, 1);
+}
+.team-heading h3 {
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  text-align: center;
+  color: rgba(4, 28, 21, 1);
+}
+.team-text {
+  width: 1006px;
+  height: 81px;
+  margin-top: 10px;
+  margin-left: 217px;
+  gap: 0px;
+}
+.team-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(47, 47, 47, 1);
+}
+
 /* About us styling ends here */
 
 button {

@@ -3,6 +3,7 @@ import HomeNav from "../Layouts/HomeNav";
 import Footer from "../Layouts/Footer";
 import OurMission from "../Layouts/OurMission";
 import MissionBody from "../Layouts/MissionBody";
+import MeetTeam from "../Layouts/MeetTeam";
 
 function AboutUs() {
   return(
@@ -17,6 +18,8 @@ function AboutUs() {
       <OurMission/>
       <br /><br />
       <MissionBody/>
+      <br /><br />
+      <MeetTeam/>
        <Footer/>
     </>
   )
