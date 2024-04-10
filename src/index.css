@@ -27,8 +27,6 @@ nav {
   text-align: right;
 }
 
-
-
 .nav-links ul li a:active {
   color: #ffc145;
   font-weight: bold;
@@ -71,9 +69,12 @@ nav {
   text-decoration: none;
   color: white;
   border: 1px solid #0d5c46;
-  border-radius: 25px;
+  border-radius: 30px;
   padding: 12px 34px;
   font-size: 12px;
+  width: 200px;
+  height: 44px;
+  gap: 10px;
   background: #0d5c46;
   position: relative;
   cursor: pointer;
@@ -205,7 +206,6 @@ img {
   padding: 8px;
   font-size: 10px;
 }
-
 
 .centered-image-section {
   display: flex;
@@ -737,7 +737,7 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   border: 1px solid #ffc145;
   background: #ffc145;
   transition: 1s;
@@ -835,54 +835,122 @@ h1 {
   line-height: 24.38px;
   color: #fff;
 }
-.mission-container{
+.mission-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-  flex-wrap: wrap;
   padding: 2rem 0;
   padding-bottom: 3rem;
-  /* float: left; */
-  /* width: 50%; */
-}
-.mission-texts {
-width: Hug (512px)px;
-height: Hug (389px)px;
-gap: 20px;
-opacity: 0px;
-}
-.mission-texts p{
- /* font-size: 18px; */
-font-weight: 400;
-line-height: 27px;
-text-align: left;
+  float: left;
 }
 
-.mission-heading h4{
-font-size: 14px;
-font-weight: 500;
-line-height: 17.07px;
-text-align: left;
-
+.mission {
+  flex: 1;
+  gap: 44px;
+}
+.mission p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
 }
 
-.mission-texts h3{
- /* font-size: 40px; */
-font-weight: 600;
-line-height: 48.76px;
-text-align: left;
-color: black;
-
+.mission h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-align: left;
+  color: rgba(13, 92, 70, 1);
 }
 
+.mission h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  text-align: left;
+  color: rgba(4, 28, 21, 1);
+}
 .mission-image {
-  background: url("closeup-hands-separating-plastic-bottles.png");
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 550px;
   width: 550px;
   height: auto;
-  margin-top: 137.24px;
-  margin-left: 146.59px;
+  margin-left: 116px;
   gap: 0px;
 }
+
+.mission-body {
+  width: 1200px;
+  height: auto;
+  margin-left: 120px;
+  gap: 40px;
+}
+.mission-body h3 {
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 600;
+  color: rgba(4, 28, 21, 1);
+}
+.mission-body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(47, 47, 47, 1);
+}
+.rectangles {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.rec1 {
+  width: 600px;
+  height: 550px;
+  top: 2231px;
+  margin-left: 120px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: red;
+}
+.rec2 {
+  flex: 1;
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: -50px;
+  margin-right: 110px;
+  gap: 0px;
+  border-radius: 0px 80px 0px 0px;
+  opacity: 0px;
+  background-color: rgba(13, 92, 70, 1);
+}
+.rec2-text {
+  width: 480px;
+  /* height: 369px; */
+  height: auto;
+  margin-top: 50px;
+  margin-left: 100px;
+  gap: 60px;
+  /* opacity: 0; */
+}
+.rec2-text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  color: rgba(255, 255, 255, 1);
+}
+.rec2-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+rec2-text button {
+  background-color: rgba(255, 255, 255, 1);
+}
+
 /* About us styling ends here */
 
 button {
@@ -984,14 +1052,14 @@ button {
   color: #ffc145;
 }
 
-.container-get button{
+/* .container-get button{ */
 .container-get button {
   z-index: 4;
   background-color: #fff;
   cursor: pointer;
 }
 
-.get-btn:hover{
+.get-btn:hover {
   border: 1px solid #ffc145;
   background: #ffc145;
   transition: 1s;
@@ -1024,10 +1092,10 @@ button {
 
 .icon-square {
   position: absolute;
-  top: 170px; 
-  left: 10px; 
-  width: 50px; 
-  height: 50px; 
+  top: 170px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
   background: hsla(163, 75%, 21%, 0.8);
   display: flex;
   justify-content: center;
@@ -1037,11 +1105,11 @@ button {
 }
 
 .icon-square img {
-  width: 50%; 
+  width: 50%;
   height: auto;
 }
 
-.offering-title{
+.offering-title {
   display: flex;
   justify-content: space-between;
 }
@@ -1051,7 +1119,7 @@ button {
   color: #fff;
 }
 
-.offer-header button:hover{
+.offer-header button:hover {
   border: 1px solid #ffc145;
   background: #ffc145;
   transition: 1s;
@@ -1104,16 +1172,14 @@ h1 {
   margin-bottom: 20px;
 }
 
-
 /*Blog component css*/
 .blog-container {
   width: 100%;
-  max-width: 1200px; 
-  margin: 0 auto; 
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   align-items: end;
   justify-content: center;
-
 }
 
 .blog-row {
@@ -1122,32 +1188,29 @@ h1 {
 }
 
 .blog-row p {
-  width: 23%; 
-  margin: 0; 
+  width: 23%;
+  margin: 0;
   padding: 50px 40px 50px;
   font-size: 14px;
-  
 }
 
 /*Blog Component css*/
 
-.blog-parent{
+.blog-parent {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .blog-content-container {
-    display: flex;
-    width: 100%;
-    column-gap: 30px;
-    align-items: center;
-    place-content: center;
-    margin-bottom: 50px;
+  display: flex;
+  width: 100%;
+  column-gap: 30px;
+  align-items: center;
+  place-content: center;
+  margin-bottom: 50px;
 }
-
 
 .blog-column-wrapper {
   position: relative;
@@ -1159,7 +1222,7 @@ h1 {
   border-radius: 5px;
   text-align: center;
   padding: 15px;
-  border: 1px solid #0D5C46;
+  border: 1px solid #0d5c46;
   border-radius: 10px;
 }
 
@@ -1174,19 +1237,19 @@ h1 {
   text-align: left;
 }
 
-.blog-column-text{
+.blog-column-text {
   padding: 10px;
 }
 
 .blog-column p {
   font-size: 11px;
-  color:#041C15;
+  color: #041c15;
   text-align: left;
   margin-bottom: 10px;
 }
 
-.blog-column :nth-child(4){
-  color: #0D5C46;
+.blog-column :nth-child(4) {
+  color: #0d5c46;
   font-size: 9px;
 }
 

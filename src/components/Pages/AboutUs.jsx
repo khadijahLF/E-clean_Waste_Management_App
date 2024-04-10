@@ -2,6 +2,7 @@ import React from "react";
 import HomeNav from "../Layouts/HomeNav";
 import Footer from "../Layouts/Footer";
 import OurMission from "../Layouts/OurMission";
+import MissionBody from "../Layouts/MissionBody";
 
 function AboutUs() {
   return(
@@ -15,6 +16,7 @@ function AboutUs() {
       </div>
       <OurMission/>
       <br /><br />
+      <MissionBody/>
        <Footer/>
     </>
   )
