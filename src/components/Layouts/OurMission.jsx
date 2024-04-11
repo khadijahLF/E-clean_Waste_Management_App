@@ -2,9 +2,10 @@ function OurMission() {
   return (
     <>
       <div className="mission-container">
+        <div className="rotate-it"></div>
         <img
           className="mission-image"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvvG4IrpcQ7tUJYowsGsXRhXEGqdMZM2T1Tug15oICVg0UdO0wVRxQQ9BMtYtXiAI9fc&usqp=CAU"
+          src="https://s3-alpha-sig.figma.com/img/52e8/508b/a3848aa0421d2578b3a857f520e3bcac?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=neII025ekI2C2xIu~DFk23fNQMhpBbhIz7aYrOO~l6r3~-AVgJbHYmU-gpocwNeo84y47ubhfr1Qe7XA-Kp9W9u-Tgvqg3GMDB82NjMbiqCoSfGc2FH33QIsjcY9~bdebv769L7dKkkaddIZjvUwCaNf9eIK86boghzfje6K2UPtgUi~ZrWPS8ihbp9FZpHrz36h2cmFRl-SXA0MYgOS2gyWSmPcKvti3T39Z1IA6s5Z81YBUQLniMU50Pc3MgSVo5ICdqZ3I7QSrqkcTadOkPM5PURSh8ufMlSowmJetFBxFRQXdDHdUN20uAJKCMq51u9N5OTO1jsGLtMMb9V2kA__"
           alt="woman and boy putting plastic in a bin"
         />
         <div className="mission">

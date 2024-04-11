@@ -36,14 +36,14 @@ function MissionBody() {
     <br /><br />
   
     <div className="rectangles">
-      <div className="rec1"></div>
+      <div className="rec1"><img src="https://s3-alpha-sig.figma.com/img/c380/22e3/8653884637c60420a8b7826553a9fce8?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n-76CXUloepTuo~A-MJgT3B4DYpRq7ZO3LC6S11DZNjtSGN6ANe1wo~IzdSTnU9SjFQvisZEqPFEG72evc-Sb-cw25NZOUhuarPH2I8U16q9um5GshdyCzlpzwcgXT~lnIINqEn~L6rBlx8GqOmn-kTU~AD5S-D3bhqj1DVx3xJ~2OvQTMUnD3~k1FZyZVd-dnxJog08ieehRBaSPDZhsUvZ9rcFJGYkCJsrIVcycsmpoMj42SJOdnYiaOG7-LT5vJLefSybOCjOQHl5t7SXyJU-ea5zqpJpIJDe0Ca7axbUtRIDS7iV7u1YIxHLIAT5EFZW5npnnlSVOxw-BYn1AQ__" alt="two men shaking hands" /></div>
       <div className="rec2">
         <div className="rec2-text">
           <h3>Join Us in Making a Difference</h3>
           <br />
           <p>Join EClean in our mission to turn challenges into opportunities, waste into wealth, and create a lasting impact. Let's work together to preserve our environment, empower our communities, and shape a brighter, more sustainable future for AfricaJoin EClean in our mission to turn challenges into opportunities, waste into wealth, and create a lasting impact. Let's work together to preserve our environment, empower our communities, and shape a brighter, more sustainable future for Africa</p>
           <br />
-          <button className="get-app-button">Download the app</button>
+          <button className="mission-button">Download the app</button>
         </div>
       </div>
     </div>

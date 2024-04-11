@@ -348,13 +348,17 @@ img {
 /* Footer.css */
 
 .footer {
-  background-color: #041c15;
+  background-color: rgba(4, 28, 21, 1);
   color: #fff;
   display: flex;
   flex-wrap: wrap;
   height: 250px;
   align-items: flex-start;
   justify-content: flex-start;
+  width: 1440px;
+  height: 437px;
+  gap: 0px;
+  opacity: 0px;
   padding: 70px 140px 0px 130px;
 }
 .footer-column {
@@ -366,21 +370,33 @@ img {
 
 .footer-logo {
   width: 90px;
-
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
 .footer-column h4 {
-  font-size: 15px;
+  font-size: 18px;
+  margin-top: 50px;
   margin-bottom: 10px;
+  line-height: 21.11px;
+  font-family: Work Sans;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-column ul li {
-  font-size: 10px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.77px;
+  text-align: left;
 }
 
 .footer-column p {
-  font-size: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
 
 .footer-column ul {
@@ -408,7 +424,7 @@ img {
 }
 
 .social-icons a i {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
   color: #ffc145;
   border-radius: 50%;
   width: 20px;
@@ -416,24 +432,35 @@ img {
   line-height: 20px;
   text-align: center;
   font-size: 12px;
+  width: 35px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .Playstore-imgs {
-  width: 70px;
-  height: auto;
+  width: 150px;
+  height: 54.59px;
+  margin-top: 12px;
+  gap: 0px;
+  border-radius: 8.24px 0px 0px 0px;
+  opacity: 0px;
 }
 
 .footer-copy {
-  background-color: #041c15;
+  background-color: rgba(4, 28, 21, 1);
   width: 100%;
   text-align: center;
   flex-basis: 100%;
 }
 
 .footer-copy p {
-  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  color: rgba(255, 255, 255, 1);
   padding: 20px;
-  font-size: 11px;
 }
 
 .footer-copy hr {
@@ -821,6 +848,7 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 100px;
 }
 .about-us-content h1 {
   font-size: 60px;
@@ -847,7 +875,10 @@ h1 {
 
 .mission {
   flex: 1;
+  width: 512px;
+  height: 389px;
   gap: 44px;
+  opacity: 0px;
 }
 .mission p {
   font-size: 18px;
@@ -865,20 +896,42 @@ h1 {
 }
 
 .mission h3 {
+  /* margin-top: 100px; */
   font-size: 40px;
   font-weight: 600;
   line-height: 48.76px;
   text-align: left;
   color: rgba(4, 28, 21, 1);
 }
+.rotate-it {
+  width: 600px;
+  height: 550px;
+  margin-left: 116px;
+  gap: 0px;
+  border-radius: 0px 80px 0px 0px;
+  opacity: 0px;
+  transform: rotate(7.64deg);
+  background: rgba(255, 193, 69, 0.1);
+}
 .mission-image {
   flex: 0 0 auto;
-  margin-right: 20px;
+  width: 600px;
+  height: 550px;
+  top: 600px;
+  margin-left: -580px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 80px;
+
+  /* 
   width: 550px;
   width: 550px;
   height: auto;
   margin-left: 116px;
-  gap: 0px;
+  gap: 0px; */
+}
+.why-we-exist{
+  margin-top: 300px;
 }
 
 .mission-body {
@@ -903,6 +956,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   height: auto;
+  margin-top: 100px;
 }
 .rec1 {
   width: 600px;
@@ -911,15 +965,20 @@ h1 {
   margin-left: 120px;
   gap: 0px;
   opacity: 0px;
-  background-color: red;
+  /* background-color: red; */
+}
+.rec1 img {
+  width: 678px;
+  height: 500px;
+  border-top-right-radius: 80px;
 }
 .rec2 {
   flex: 1;
-  width: 500px;
+  width: 600px;
   height: 500px;
   margin-top: 100px;
-  margin-left: -50px;
-  margin-right: 110px;
+  margin-left: -20px;
+  margin-right: 120px;
   gap: 0px;
   border-radius: 0px 80px 0px 0px;
   opacity: 0px;
@@ -927,12 +986,10 @@ h1 {
 }
 .rec2-text {
   width: 480px;
-  /* height: 369px; */
-  height: auto;
+  height: 369px;
   margin-top: 50px;
   margin-left: 100px;
   gap: 60px;
-  /* opacity: 0; */
 }
 .rec2-text h3 {
   font-size: 40px;
@@ -947,13 +1004,18 @@ h1 {
   text-align: left;
   color: rgba(255, 255, 255, 1);
 }
-rec2-text button {
-  background-color: rgba(255, 255, 255, 1);
+.mission-button {
+  width: 211px;
+  height: 44px;
+  padding: 12px 28px 12px 28px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
 }
 
 .team-container {
   width: 1440px;
   height: 697px;
+  margin-top: 80px;
   gap: 0px;
   background-color: rgba(241, 255, 251, 1);
 }
@@ -987,7 +1049,7 @@ rec2-text button {
   margin-left: 217px;
   gap: 0px;
 }
-.team-text p {
+/* .team-text p {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -1003,7 +1065,7 @@ rec2-text button {
   gap: 0px;
   border-radius: 16px 0px 0px 0px;
   border: 1px rgba(192, 192, 192, 1);
-}
+} */
 
 .swiper {
   width: 100%;
@@ -1038,12 +1100,10 @@ rec2-text button {
 .swiper-overlay {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   transition: 0.5s ease;
-  opacity: 0;
+  /* opacity: 0; */
   color: white;
   font-size: 20px;
   padding: 20px;
@@ -1058,7 +1118,7 @@ rec2-text button {
   font-weight: 600;
   line-height: 48.76px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
   color: rgba(4, 28, 21, 1);
 }
 .partners-logo {
@@ -1074,6 +1134,13 @@ rec2-text button {
 .partners-logo img {
   width: 100px;
   cursor: pointer;
+}
+.faq-h {
+  width: 583px;
+  height: 49px;
+  margin-top: 100px;
+  margin-left: 429px;
+  gap: 0px;
 }
 .faq-heading {
   font-size: 40px;
@@ -1095,36 +1162,14 @@ rec2-text button {
   justify-content: space-between;
   /* opacity: 0px; */
 }
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
+.accordion-summary {
   font-size: 18px;
   font-weight: 600;
-  color: rgba(4, 28, 21, 1);
   line-height: 21.94px;
   text-align: left;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+  color: rgba(4, 28, 21, 1);
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active, .accordion:hover {
-  background-color: rgba(192, 192, 192, 1);
-} */
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  font-size: 12px;
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-}
-.panel p {
+.accordion-details {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
