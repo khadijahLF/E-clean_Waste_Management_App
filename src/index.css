@@ -840,10 +840,10 @@ h1 {
 
 /* About us styling starts here */
 .about-us-container {
-  background: url("https://img.freepik.com/free-photo/closeup-hands-separating-plastic-bottles_53876-46918.jpg");
+  background: url("https://s3-alpha-sig.figma.com/img/2744/99f8/50dd606f1df8a47079963d5c2cf711e1?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VrM79I2Rw~oLk9wbh-9ix2gmvR~aG~x9dzJeUq0oOQpoLTL3si0qbKB2JHh7F2XF8ye7KtPup6a-j7OwTbLmMjsj97FebSNqzyEfXfMhyGHkrhtW0lSjHBVC2V0FBIgIEqUaPbVaECCP4nz8eeNuAeCXoAxgNypZZoGekyEXza1c4ZspXiBj-c9CSIuxL7r7~7veOex31ZISHgw6ob2gd0hoohTUZCTAl5Az2XEBO3QBZmIPr8YdTCMGfkWqq98O0b-n1GdD5Crha~Gyqp57S6ETsH77fFJdR9JaPtdtI8VDBxwF1VBTnhb6OhAbwQKebkFIyvjz2H0RpRKyTwtO3w__");
   background-size: cover;
-  width: 100%;
-  height: 300px;
+  width: 1440px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -854,18 +854,21 @@ h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 73.14px;
-  color: #fff;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
 
 .about-us-content p {
   font-size: 20px;
   font-weight: 400;
   line-height: 24.38px;
-  color: #fff;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
 }
 .mission-container {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 116px;
   align-items: center;
   gap: 2rem;
   padding: 2rem 0;
@@ -878,16 +881,17 @@ h1 {
   width: 512px;
   height: 389px;
   gap: 44px;
-  opacity: 0px;
 }
 .mission p {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   text-align: left;
+  margin-top: 25px;
 }
 
 .mission h4 {
+  margin-top: 20px;
   font-size: 14px;
   font-weight: 500;
   line-height: 17.07px;
@@ -896,7 +900,7 @@ h1 {
 }
 
 .mission h3 {
-  /* margin-top: 100px; */
+  margin-top: 20px;
   font-size: 40px;
   font-weight: 600;
   line-height: 48.76px;
@@ -904,34 +908,24 @@ h1 {
   color: rgba(4, 28, 21, 1);
 }
 .rotate-it {
-  width: 600px;
+  width: 550px;
   height: 550px;
-  margin-left: 116px;
+  margin-left: 45px;
   gap: 0px;
   border-radius: 0px 80px 0px 0px;
   opacity: 0px;
-  transform: rotate(7.64deg);
+  transform: rotate(7.66deg);
   background: rgba(255, 193, 69, 0.1);
 }
 .mission-image {
   flex: 0 0 auto;
-  width: 600px;
+  width: 550px;
   height: 550px;
   top: 600px;
-  margin-left: -580px;
+  margin-left: -600px;
   gap: 0px;
   opacity: 0px;
   margin-right: 80px;
-
-  /* 
-  width: 550px;
-  width: 550px;
-  height: auto;
-  margin-left: 116px;
-  gap: 0px; */
-}
-.why-we-exist{
-  margin-top: 300px;
 }
 
 .mission-body {
