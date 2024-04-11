@@ -1090,7 +1090,7 @@ h1 {
   margin-left: 217px;
   gap: 0px;
 }
-/* .team-text p {
+.team-text p {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -1106,7 +1106,7 @@ h1 {
   gap: 0px;
   border-radius: 16px 0px 0px 0px;
   border: 1px rgba(192, 192, 192, 1);
-} */
+}
 
 .swiper {
   width: 100%;
