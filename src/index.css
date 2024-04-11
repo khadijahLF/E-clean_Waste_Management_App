@@ -7,11 +7,11 @@
 }
 
 .header {
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  background-color: hsla(163, 75%, 6%, 0.05);
+  width: 1440px;
+  height: 86px;
+  padding: 16px, 10px, 16px, 10px;
+  gap: 10px;
+  background-color: rgba(4, 28, 21, 0.05);
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@ nav {
 }
 
 .nav-links ul li a:active {
-  color: #ffc145;
+  color: rgba(255, 193, 69, 1);
   font-weight: bold;
 }
 /* nav links styling */
@@ -41,7 +41,9 @@ nav {
 .nav-links ul li a {
   color: #0d5c46;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
 }
 
 .header-logo {
@@ -55,7 +57,7 @@ nav {
   content: "";
   width: 0%;
   height: 2px;
-  background: #ffc145;
+  background: rgba(255, 193, 69, 1);
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -67,23 +69,25 @@ nav {
 .get-app-button {
   display: inline-block;
   text-decoration: none;
-  color: white;
-  border: 1px solid #0d5c46;
+  color: rgba(255, 255, 255, 1);
   border-radius: 30px;
-  padding: 12px 34px;
+  padding: 12px, 28px, 12px, 28px;
   font-size: 12px;
-  width: 200px;
+  width: 156px;
   height: 44px;
   gap: 10px;
-  background: #0d5c46;
+  background: rgba(13, 92, 70, 1);
   position: relative;
   cursor: pointer;
   margin-left: 40px;
-}
+  font-size: 16px;
+  line-height: 19.5px;
+ }
 
 .get-app-button:hover {
-  border: 1px solid #ffc145;
-  background: #ffc145;
+  border: 1px solid rgba(255, 193, 69, 1);
+  background: rgba(255, 193, 69, 1);
+  color: rgba(13, 92, 70, 1);
   transition: 1s;
 }
 
@@ -300,14 +304,14 @@ img {
 }
 
 .underline_txt {
-  border-bottom: 2px solid #ffc145;
+  border-bottom: 2px solid rgba(255, 193, 69, 1);
   font-size: 12px !important;
   width: 85px;
   padding-bottom: 1px;
 }
 
 .box1 {
-  border: 2px solid #ffc145;
+  border: 2px solid rgba(255, 193, 69, 1);
   float: left;
   font-size: 10px;
   font-weight: 700;
@@ -341,7 +345,7 @@ img {
 }
 
 .achievement-item > p {
-  color: #ffc145;
+  color: rgba(255, 193, 69, 1);
   font-size: 12px;
 }
 
@@ -425,7 +429,7 @@ img {
 
 .social-icons a i {
   background-color: rgba(255, 255, 255, 1);
-  color: #ffc145;
+  color: rgba(255, 193, 69, 1);
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -634,7 +638,7 @@ img {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background-color: #ffc145;
+  background-color: rgba(255, 193, 69, 1);
   margin-right: 10px;
   position: absolute;
   left: 30px;
@@ -671,7 +675,7 @@ img {
 
 .stars {
   font-size: 20px;
-  color: #ffc145;
+  color: rgba(255, 193, 69, 1);
 }
 
 .text {
@@ -765,8 +769,8 @@ button {
 }
 
 button:hover {
-  border: 1px solid #ffc145;
-  background: #ffc145;
+  border: 1px solid rgba(255, 193, 69, 1);
+  background: rgba(255, 193, 69, 1);
   transition: 1s;
 }
 
@@ -1280,8 +1284,8 @@ button {
 }
 
 .get-btn:hover {
-  border: 1px solid #ffc145;
-  background: #ffc145;
+  border: 1px solid rgba(255, 193, 69, 1);
+  background: rgba(255, 193, 69, 1);
   transition: 1s;
 }
 
@@ -1340,8 +1344,8 @@ button {
 }
 
 .offer-header button:hover {
-  border: 1px solid #ffc145;
-  background: #ffc145;
+  border: 1px solid rgba(255, 193, 69, 1);
+  background: rgba(255, 193, 69, 1);
   transition: 1s;
 }
 
@@ -1487,7 +1491,7 @@ h1 {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background-color: #ffc145;
+  background-color: rgba(255, 193, 69, 1);
   margin-right: 10px;
   position: absolute;
   left: 30px;
