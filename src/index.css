@@ -300,22 +300,34 @@ img {
 }
 
 .our-serviceP {
-  color: #0d5c46;
-  display: flex;
-  text-align: left;
+  width: 466px;
   padding: 15px;
   font-size: 12px;
-  padding-left: 130px;
-  margin-bottom: -15px;
-  margin-top: 60px;
+  /* gap: 20px; */
+  margin-left: 120px;
+  /* margin-top: 50px; */
 }
-
-.underline_txt {
+.our-serviceP p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: rgba(13, 92, 70, 1);
+  margin-bottom: 5px;
+}
+.offer-header h2 {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  text-align: left;
+  color: rgba(4, 28, 21, 1);
+}
+/* .underline_txt {
   border-bottom: 2px solid rgba(255, 193, 69, 1);
   font-size: 12px !important;
   width: 85px;
   padding-bottom: 1px;
-}
+} */
 
 .box1 {
   border: 2px solid rgba(255, 193, 69, 1);
@@ -1329,22 +1341,28 @@ button {
 
 .offering-container {
   display: flex;
-  width: 80%;
+  width: 100%;
+  margin-left: 120px;
 }
 
 .offer-header {
   display: flex;
+  margin-bottom: 50px;
   justify-content: space-between;
   align-items: center;
-  width: 89%;
-  margin-bottom: 20px;
-  padding-left: 130px;
+  margin-left: 120px;
+  margin-right: 150px;
+  /* width: 89%; */
+  /* padding-left: 130px; */
 }
 
 .column-wrapper {
   position: relative;
 }
-
+.column-wrapper img{
+  width: 387px;
+  height: 254px;
+}
 .icon-square {
   position: absolute;
   top: 170px;

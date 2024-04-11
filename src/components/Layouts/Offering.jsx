@@ -5,13 +5,14 @@ const Offering = () => {
     <>
        
         <div className='our-serviceP'> 
-            <p className='underline_txt'>Our Services</p>
+            <p>Our Services</p>
+            
         </div>
 
-        <div className="offer-header">
-                <h2>What We Are Offering</h2>
-                <button>Download App</button>
-        </div>
+         <div className="offer-header">
+         <h2>What We Are Offering</h2>
+         <button>Download App</button>
+        </div> 
 
         <div className='Offering-parent'>
             <div className="offering-container">
