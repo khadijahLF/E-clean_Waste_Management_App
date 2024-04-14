@@ -1136,17 +1136,19 @@ h1 {
   display: block;
   width: 100%;
   height: auto;
+  border-top-right-radius: 30px;
 }
 
 .swiper-overlay {
   position: absolute;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 193, 69, 1);
   width: 100%;
   transition: 0.5s ease;
   /* opacity: 0; */
-  color: white;
-  font-size: 20px;
+  color: rgba(13, 92, 70, 1);
+  font-size: 16px;
+  line-height: 14.63px;
   padding: 20px;
   text-align: center;
 }
