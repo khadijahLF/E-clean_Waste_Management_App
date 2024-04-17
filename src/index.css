@@ -41,13 +41,13 @@ nav {
 .nav-links ul li a {
   color: #041c15;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 21.94px;
 }
 
 .header-logo {
-  width: 100px;
+  width: 137px;
   margin-right: auto;
   margin-left: 160px;
 }
@@ -72,15 +72,15 @@ nav {
   color: rgba(255, 255, 255, 1);
   border-radius: 30px;
   padding: 12px, 28px, 12px, 28px;
-  font-size: 11px;
-  width: 179px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 156px;
   height: 44px;
   gap: 10px;
   background: rgba(13, 92, 70, 1);
   position: relative;
   cursor: pointer;
   margin-left: 40px;
-  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -393,11 +393,17 @@ img {
   justify-content: space-evenly;
 }
 
+.footer-columnLogo{
+  margin-right: 180px;
+}
+
 .footer-logo {
   width: 135px;
   margin-top: 50px;
   margin-bottom: 20px;
 }
+
+
 
 .footer-column h4 {
   font-size: 18px;
@@ -430,8 +436,10 @@ img {
   margin-bottom: 20px;
 }
 
-.p-logo  p{
-  margin-bottom: 19px;
+.p-logo {
+  margin-bottom: 22px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .social-icons {
@@ -817,8 +825,10 @@ button {
   padding: 10px 20px;
   border-radius: 50px;
   cursor: pointer;
-  width: 151px;
+  width: 179px;
   height: 44px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 button:hover {
@@ -1257,7 +1267,7 @@ button {
   width: 100%;
   flex-wrap: wrap;
   margin-top: 30px;
-  column-gap: 60px;
+  column-gap: 130px;
   flex: 1;
   margin-bottom: 70px;
   background-color: #f1fffb;
@@ -1271,7 +1281,7 @@ button {
   width: 100%;
   flex-wrap: wrap;
   margin-top: 30px;
-  column-gap: 60px;
+  column-gap: 130px;
   flex: 1;
   margin-bottom: 70px;
   background-color: #fff7e5;
@@ -1350,6 +1360,7 @@ button {
   font-size: 18px;
   line-height: 27px;
   width: 1000px;
+  font-weight: 400;
 }
 /* .container-get button{ */
 .container-get button {

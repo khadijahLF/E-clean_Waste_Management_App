@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <footer className="footer">
-      <div className="footer-column">
+      <div className="footer-columnLogo">
         <img src='src\assets\WebLogo.png' alt="logo" className='footer-logo' />
         <p className='p-logo'>Building Zero Waste Communities, <br/>one city at a time.</p>
         <div className='Playstore-imgs'>
