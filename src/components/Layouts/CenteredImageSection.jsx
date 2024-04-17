@@ -29,19 +29,19 @@ const CenteredImageSection = ({ imageSrc, leftText, rightText }) => {
                             <h3>User-Friendly Interface</h3>
                             <p>Our app is designed with simplicity and ease of use in mind. You can easily manage your waste materials and transactions with just a few taps.</p>
                         </div>
-                        
-                        <div className='left2'>
+
+                        <div className='left1'>
                             <div className='box1'>02</div>
                             <h3>Real-Time Notifications</h3>
-                            <p>
-                            Stay informed and connected with real-time notifications from the app. Receive instant alerts on notifications when your scheduled pickups are confirmed. 
-                            </p>
+                            <p>Stay informed and connected with real-time notifications from the app. Receive instant alerts on notifications when your scheduled pickups are confirmed. </p>
                         </div>
+                        
+                        
                 </div>
             </div>
 
             <div className="centerImg">
-                <img src="src\assets\Frame 80.png" alt="Centered Image" />
+                <img src="src\assets\Group 99.png" alt="Centered Image" />
             </div>
 
             <div className="right-text">
