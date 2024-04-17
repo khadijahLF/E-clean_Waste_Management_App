@@ -73,7 +73,7 @@ nav {
   border-radius: 30px;
   padding: 12px, 28px, 12px, 28px;
   font-size: 11px;
-  width: 156px;
+  width: 179px;
   height: 44px;
   gap: 10px;
   background: rgba(13, 92, 70, 1);
@@ -394,27 +394,27 @@ img {
 }
 
 .footer-logo {
-  width: 90px;
+  width: 135px;
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-column h4 {
   font-size: 18px;
   margin-top: 50px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   line-height: 21.11px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
 }
 
 .footer-column ul li {
-  font-size: 13px;
+  font-size: 14px;
   
 }
 
 .footer-column p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -427,10 +427,10 @@ img {
 }
 
 .footer-column ul li {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.p-logo {
+.p-logo  p{
   margin-bottom: 19px;
 }
 
@@ -1261,7 +1261,7 @@ button {
   flex: 1;
   margin-bottom: 70px;
   background-color: #f1fffb;
-  min-height: 100px;
+  height: 401px;
   align-items: center;
   justify-content: center;
 }
@@ -1275,7 +1275,7 @@ button {
   flex: 1;
   margin-bottom: 70px;
   background-color: #fff7e5;
-  min-height: 100px;
+  height: 401px;
   align-items: center;
   justify-content: center;
 }
@@ -1285,7 +1285,7 @@ button {
   background: url("src/assets/Mask group.png");
   background-size: contain;
   width: 100%;
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1296,6 +1296,10 @@ button {
   text-align: center;
 }
 
+.content-get h1{
+
+  font-size: 40px;
+}
 .images {
   display: flex;
   justify-content: center;
@@ -1342,6 +1346,11 @@ button {
   color: #ffc145;
 }
 
+.content-get p{
+  font-size: 18px;
+  line-height: 27px;
+  width: 1000px;
+}
 /* .container-get button{ */
 .container-get button {
   z-index: 4;
@@ -1353,6 +1362,13 @@ button {
   border: 1px solid rgba(255, 193, 69, 1);
   background: rgba(255, 193, 69, 1);
   transition: 1s;
+}
+
+.get-btn{
+  margin-top:25px;
+  font-size: 16px;
+  width: 179px;
+  height: 44px;
 }
 
 /*Offering component css*/
