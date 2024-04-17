@@ -29,6 +29,8 @@ const Blog = () => {
                             <h6>10 Tips for Effective Waste Sorting at Home</h6>
                             <p>Waste sorting is a simple yet powerful way to make a positive impact...</p>
                             <p>Read more</p>
+
+                            
                         </div>
                     </div>
                 </div>

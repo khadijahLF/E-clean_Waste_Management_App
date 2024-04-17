@@ -1525,7 +1525,8 @@ height: 30px;
   width: 23%;
   margin: 0;
   padding: 50px 40px 50px;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 24.38px;
 }
 
 /*Blog Component css*/
@@ -1551,61 +1552,64 @@ height: 30px;
 }
 
 .blog-column {
-  width: 280px;
-  height: 340px;
-  border-radius: 5px;
+  width: 384px;
+  height: 520px;
+  border-radius: 16px;
   text-align: center;
   padding: 15px;
   border: 1px solid #0d5c46;
-  border-radius: 10px;
 }
 
 .blog-column img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 352px;
+  height: 260px;
+  border-radius: 10px;
 }
 
 .blog-column h6 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: left;
+  font-size: 20px;
 }
 
 .blog-column-text {
   padding: 10px;
 }
 
+
+
 .blog-column p {
-  font-size: 11px;
+  font-size: 16px;
   color: #041c15;
   text-align: left;
   margin-bottom: 10px;
+  line-height: 24px;
 }
 
 .blog-column :nth-child(4) {
   color: #0d5c46;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 .blog-title2 p {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  font-size: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
   font-weight: normal;
   color: #0d5c46;
 }
 
 .blog-title2 p::after {
   content: "";
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: rgba(255, 193, 69, 1);
   margin-right: 10px;
   position: absolute;
-  left: 30px;
-  top: 30%;
+  left: 42px;
+  top: 33%;
   transform: translateY(-50%);
 }
 
