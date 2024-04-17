@@ -5,8 +5,7 @@ const Offering = () => {
     <>
        
         <div className='our-serviceP'> 
-            <p>Our Services</p>
-            
+            <p className='underline_txt '>Our Services</p>   
         </div>
 
          <div className="offer-header">
