@@ -21,11 +21,13 @@ const News = () => {
           <div className="row-item">
             <img src="src\assets\Blogimage2.png" alt="News Image" />
                 <div className='blogandp'>
-                    <div className="blog-title">
-                        <p>Blog</p>
+                    <div className='blog-title'>
+                        <p >Blog</p>
                         <p className='date'>21 FEB 2024</p>
                     </div>
+                    <div className='btit'>
                     <p>10 Tips for Effective Waste Sorting at Home</p>
+                    </div>
                 </div>
           </div>
         </div>
@@ -33,11 +35,14 @@ const News = () => {
           <div className="row-item">
             <img src="src\assets\Blogimage3.png" alt="News Image" />
             <div className='blogandp'>
-                    <div className="blog-title">
+                    <div className="blog-titleV">
                         <p>Video</p>
                         <p className='date'>21 FEB 2024</p>
                     </div>
-                <p>How to Make Natural Cleaning Products from Household Ingredients</p>
+
+                    <div className='btit'>
+                    <p>How to Make Natural Cleaning Products from Household Ingredients</p>
+                    </div>
             </div>
           </div>
         </div>
@@ -49,7 +54,10 @@ const News = () => {
                         <p>Blog</p>
                         <p className='date'>21 FEB 2024</p>
                     </div>
-                <p>The Future of Waste Management: Innovations and Trends</p>
+                    
+                    <div className='btit'>
+                    <p >The Future of Waste Management: Innovations and Trends</p>
+                    </div>
             </div>
           </div>
         </div>
