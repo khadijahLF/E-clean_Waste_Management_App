@@ -3,18 +3,18 @@ import React from 'react';
 const Offering = () => {
   return (
     <>
-       
-        <div className='our-serviceP'> 
-            <p className='underline_txt '>Our Services</p>   
-        </div>
+       <div className='offering-sec'>
+            <div className='our-serviceP'> 
+                    <p className=''>Our Services</p>   
+            </div>
 
-         <div className="offer-header">
-         <h2>What We Are Offering</h2>
-         <button>Download App</button>
-        </div> 
+            <div className="offer-header">
+                <h2>What We Are Offering</h2>
+                <button className='offer-btn'>Download App</button>
+            </div> 
 
-        <div className='Offering-parent'>
-            <div className="offering-container">
+            <div className='Offering-parent'>
+                <div className="offering-container">
 
                 <div className="column">
 
@@ -57,6 +57,12 @@ const Offering = () => {
                 </div>
             </div>
         </div>
+       </div>
+
+       <div>
+
+       </div>
+       
     
     </>
     

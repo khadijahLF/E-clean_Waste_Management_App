@@ -6,15 +6,8 @@ const Revolution = () => {
     <>
 
     <div className='parent-revcontainer'> 
-        {/* <div className="revolution-container">
+      <img className="revimage" src="src\assets\medium-shot-smiley-man-with-helmet 1.png" alt="man" />
             
-
-            <div className="revimage"> */}
-                <img className="revimage" src="src\assets\medium-shot-smiley-man-with-helmet 1.png" alt="man" />
-                
-
-            </div>
-
             <div className="content-container">
             <h6 className='underline_txt'>What We Do</h6>
                 <h2>Revolutionizing Waste <br/> Management Practices</h2>
@@ -29,8 +22,7 @@ const Revolution = () => {
                 
             </div>
 
-        {/* </div>
-    </div> */}
+    </div>
     </>
   );
 };
