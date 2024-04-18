@@ -9,11 +9,12 @@
 .header {
   width: 100%;
   height: 86px;
-  padding: 16px, 10px, 16px, 10px;
   gap: 10px;
   background-color: rgba(4, 28, 21, 0.05);
   display: flex;
   align-items: center;
+  padding-left: 140px;
+  padding-right: 120px;
 }
 
 nav {
@@ -49,7 +50,6 @@ nav {
 .header-logo {
   width: 137px;
   margin-right: auto;
-  margin-left: 160px;
 }
 
 /* hover effect for nav links*/
@@ -108,9 +108,9 @@ nav {
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 60%;
-  left: 25%;
+  left: 20%;
   transform: translate(-50%, -50%);
-  margin-left: 70px;
+  margin-left: 120px;
   text-align: left;
 }
 
@@ -285,15 +285,19 @@ img {
   font-size: 14px;
 }
 
-.our-serviceP {
-  padding-left: 140px;
-}
+
 .our-serviceP p {
   font-size: 14px;
   font-weight: 500;
   line-height: 17.07px;
   color: rgba(13, 92, 70, 1);
   margin-bottom: 5px;
+  padding-left: 20px;
+  }
+
+.offering-sec{
+  padding-left: 104px;
+  padding-right: 140px;
 }
 .offer-header h2 {
   margin-top: 0;
@@ -301,6 +305,7 @@ img {
   font-weight: 600;
   line-height: 48.76px;
   text-align: left;
+  padding-left: 20px;
   color: rgba(4, 28, 21, 1);
 }
 .underline_txt {
@@ -795,7 +800,7 @@ img {
 .revimage {
   width: 550px;
   height: 550px;
-  margin-left: 159px;
+  margin-left: 130px;
   margin-top: 100px;
   border-top-right-radius: 80px;
 }
@@ -810,8 +815,6 @@ img {
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
-  width: 550px;
-  flex-wrap: wrap;
   margin-top: 30px;
   column-gap: 60px;
 
@@ -825,6 +828,7 @@ img {
   margin-left: 769px;
   margin-top: -450px;
   margin-bottom: 200px;
+
 }
 .content-container h2 {
   font-size: 40px;
@@ -1558,8 +1562,6 @@ button {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-left: 120px;
-  padding-right: 120px;
   height: 500px;
 }
 
@@ -1568,8 +1570,7 @@ button {
   margin-bottom: 50px;
   justify-content: space-between;
   align-items: center;
-  margin-left: 140px;
-  margin-right: 110px;
+
   /* width: 89%; */
   /* padding-left: 130px; */
 }
@@ -1605,10 +1606,13 @@ button {
   justify-content: space-between;
 }
 
-.offer-header button {
+
+
+.offer-btn{
   background-color: #0d5c46;
   color: #fff;
 }
+.
 
 .offer-header button:hover {
   border: 1px solid rgba(255, 193, 69, 1);
@@ -1785,4 +1789,88 @@ button {
 
 .date {
   margin-left: 25px;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.small-screen-hero{
+  display: none;
+}
+
+/*Media Query for small screen*/
+@media (max-width: 390px) {
+
+  .header{
+    height: 70px;
+    width:390px;
+  }
+
+  .header-logo {
+    
+
+  }
+
+  .header-logo img{
+    width:113px;
+  }
+  .nav-links {
+    display: none; 
+  }
+  .menu-icon {
+    display: block; 
+  }
+
+  .hero-image{
+    display: none;
+  }
+
+
+  .small-screen-hero {
+    background-image: url('src/assets/sm.png');
+    background-size: cover;
+    background-position: center;
+    width: 390px;
+    height: 878.1px;
+    display: flex;
+  }
+  
+ .sm-hero-content h2 {
+    line-height: 48.76px;
+    font-size: 40px;
+    color: #fff;
+    padding: 24px;
+    font-weight: 600;
+  }
+
+  .sm-hero-content p {
+    font-weight: 18px;
+    padding: 24px;
+    color: #fff;
+    margin-top: -20px;
+  }
+
+.sm-hand-img{
+  width: 365.3px;
+  padding:  24px;
+}
+
+  
+.sm-heroapp-imgs {
+  display: flex;
+  gap: 0px;
+  padding-left: 24px;
+  border-radius: 8.44px 0px 0px 0px;
+}
+
+.sm-heroapp-imgs img {
+  margin-right: 10px;
+  width:120px;
+}
+
+.offering-sec {
+  visibility: hidden;
+}
+
 }

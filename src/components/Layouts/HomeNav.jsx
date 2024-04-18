@@ -8,6 +8,7 @@ function HomeNav() {
         <div className='header-logo'>
           <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
         </div>
+        <div className="menu-icon">☰</div> 
         <nav className="nav">
           <div className="nav-links">
             <ul>
@@ -29,6 +30,7 @@ function HomeNav() {
             </ul>
           </div>
         </nav>
+        
       </header>
     </>
 
