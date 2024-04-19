@@ -8,7 +8,6 @@ function HomeNav() {
         <div className='header-logo'>
           <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
         </div>
-        <div className="menu-icon">☰</div> 
         <nav className="nav">
           <div className="nav-links">
             <ul>
@@ -31,6 +30,11 @@ function HomeNav() {
           </div>
         </nav>
         
+      </header>
+
+      <header className='sm-header'>
+      <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
+      <div className="menu-icon">☰</div> 
       </header>
     </>
 

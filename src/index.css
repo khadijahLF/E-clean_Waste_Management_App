@@ -1815,28 +1815,40 @@ button {
   display: none;
 }
 
+.sm-header{
+  display: none;
+}
+
 
 /*Media Query for small screen*/
 @media (max-width: 768px) {
 
-  .header{
-    height: 70px;
-    display: flex;
-    align-content: flex-start;
-  }
-
-  .header-logo img{
-    width:113px;
-    bottom: 3px;
-    padding-left: 0%;
-
-  }
   .nav-links {
     display: none; 
   }
-  .menu-icon {
-    display: flex;
   
+  .sm-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    height: 70px; 
+    background-color:rgba(255, 255, 255, 0.85);
+    ;
+  }
+  
+  .sm-header img {
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  .menu-icon {
+    font-size: 24px; /* Adjust font size as needed */
+    cursor: pointer;
+    display: flex;
+  }
+
+  .header{
+    display: none;
   }
 
   .hero-image{
