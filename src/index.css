@@ -1834,7 +1834,6 @@ button {
     padding: 10px 20px;
     height: 70px; 
     background-color:rgba(255, 255, 255, 0.85);
-    ;
   }
   
   .sm-header img {
@@ -2019,7 +2018,7 @@ button {
 
 .sm-left1 .box1,
 .sm-left1 h3 {
-  justify-content: space-between; /* Make the box and header take up the entire width of the flex container */
+  justify-content: space-between; 
 }
 
 
@@ -2051,8 +2050,8 @@ line-height: 24px;
 }
 
 .achievement-item {
-  width: 262px; /* Make each item take full width */
-  margin: 10px 0; /* Adjust margin as needed */
+  width: 262px;
+  margin: 10px 0; 
   max-width: calc(50% - 20px); 
 }
 
@@ -2069,15 +2068,15 @@ line-height: 24px;
 }
 
 .sm-footer {
-  flex-direction: column; /* Change flex direction to column for smaller screens */
-  padding: 20px; /* Reduce padding for smaller screens */
-  height: auto; /* Set height to auto */
+  flex-direction: column; 
+  padding: 20px; 
+  height: auto; 
   display: flex;
   background-color: #041c15;
 }
 
 .sm-footer-columnLogo {
-  margin-right: 0; /* Remove margin for smaller screens */
+  margin-right: 0; 
 }
 
 .sm-footer-column {
@@ -2184,16 +2183,16 @@ text-decoration: none;
 
 .blog-title {
   display: flex;
-  justify-content: space-between; /* Align blog and date text on a row with space between */
+  justify-content: space-between; 
 }
 
 .blogandp {
   display: flex;
-  flex-direction: column; /* Arrange blog and date text in a column */
+  flex-direction: column; 
 }
 
 .btit {
-  margin-top: 10px; /* Add margin between blog title and content */
+  margin-top: 10px; 
 }
 
 .sm-image-container img{
