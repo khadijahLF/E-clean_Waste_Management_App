@@ -1694,29 +1694,46 @@ height: 30px;
 
 .small-screen-hero{
   display: none;
+
 }
 
+.sm-rev-div{
+  display: none;
+}
+
+.sm-Gen-div{
+  display: none;
+}
+.sm-footer-copy, .sm-footer{
+  display: none;
+}
+
+.sm-newsContainer{
+  display: none;
+}
+
+
 /*Media Query for small screen*/
-@media (max-width: 390px) {
+@media (max-width: 768px) {
 
   .header{
     height: 70px;
-    width:390px;
-  }
-
-  .header-logo {
-    
-
+    display: flex;
+    align-content: flex-start;
   }
 
   .header-logo img{
     width:113px;
+    bottom: 3px;
+    padding-left: 0%;
+
   }
   .nav-links {
     display: none; 
   }
   .menu-icon {
-    display: block; 
+    display: flex;
+  
   }
 
   .hero-image{
@@ -1728,8 +1745,7 @@ height: 30px;
     background-image: url('src/assets/sm.png');
     background-size: cover;
     background-position: center;
-    width: 390px;
-    height: 878.1px;
+    height: 830px;
     display: flex;
   }
   
@@ -1765,9 +1781,311 @@ height: 30px;
   margin-right: 10px;
   width:120px;
 }
-
-.offering-sec {
-  visibility: hidden;
+.parent-revcontainer{
+  display: none;
 }
+
+.sm-rev-div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+}
+
+.sm-rev-div h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.sm-rev-div p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.sm-rev-div :nth-child(1){
+  font-size: 14px;
+  color: #041c15;
+  margin-top: 30px;
+}
+
+.sm-rev-div img{
+  width: 342px;
+  height: 342px;
+  padding: 24px;
+}
+.sm-rev-div button{
+  align-self: flex-start;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+/*sm screen offering css*/
+
+.offering-sec{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding: 24px;
+}
+
+.offering-container {
+  flex-direction: column;
+  height: auto;
+  row-gap: 30px;
+ 
+}
+
+.offer-header {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.offer-header h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 29.26px;
+  align-self: flex-start;
+}
+
+.offer-header button{
+  display: none;
+}
+
+.offer-header button {
+  align-self: flex-start;
+}
+
+.offering-parent .column {
+  margin: 0;
+  width: 100%;
+  
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column h3 {
+  font-size: 18px;
+}
+
+.column p {
+  font-size: 14px;
+}
+
+/*centered image and text css*/
+.sm-centered-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sm-left-items{
+  padding-left: 24px;
+}
+
+.sm-left1 {
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.sm-left1 p {
+  width: 100%; 
+}
+
+.sm-left1 .box1,
+.sm-left1 h3 {
+  justify-content: space-between; /* Make the box and header take up the entire width of the flex container */
+}
+
+
+.sm-left-items p{
+font-size: 16px;
+line-height: 24px;
+
+}
+
+.sm-centerImg img {
+  order: 4; 
+  margin-top: 20px; 
+}
+
+.sm-title-center h1 {
+  font-size: 24px; 
+  line-height: 29px; 
+  color: #041c15;
+}
+
+
+.achievement-container {
+  flex-direction: column;
+  align-items: center;
+  height: auto; 
+  padding: 20px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement-item {
+  width: 262px; /* Make each item take full width */
+  margin: 10px 0; /* Adjust margin as needed */
+  max-width: calc(50% - 20px); 
+}
+
+.Gen-div{
+  display:none
+}
+.sm-Gen-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial{
+  display: none;
+}
+
+.sm-footer {
+  flex-direction: column; /* Change flex direction to column for smaller screens */
+  padding: 20px; /* Reduce padding for smaller screens */
+  height: auto; /* Set height to auto */
+  display: flex;
+  background-color: #041c15;
+}
+
+.sm-footer-columnLogo {
+  margin-right: 0; /* Remove margin for smaller screens */
+}
+
+.sm-footer-column {
+  margin-bottom: 20px; 
+}
+
+.sm-footer-column ul li {
+  margin-bottom: 10px; 
+  color: #fff;
+  text-decoration: none;
+}
+
+.sm-footer-column ul li a{
+  font-size: 14px;
+text-decoration: none;
+}
+
+.sm-footer-column h4{
+  color: #fff;
+}
+
+.sm-footer-column ul li a{
+  text-decoration: none;
+}
+
+.sm-footer-logo {
+  margin: 0 auto 20px; 
+}
+
+.sm-social-icons {
+  justify-content: center;
+}
+
+.sm-Playstore-imgs {
+  justify-content: center; 
+  width: 120px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.sm-p-logo{
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.sm-footer-copy p {
+  padding: 10px; 
+  display: flex;
+}
+
+.footer, .footer-copy{
+  display: none;
+}
+
+.testimonial-head{
+  display: none;
+}
+
+.container-dis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-dis h1{
+  font-size: 20px;
+  width: 250px;
+}
+
+.content-dis p{
+  font-size: 12px;
+  width:250px;
+  line-height: 18px;
+}
+
+.Newheader,.newsContainer{
+  display: none;
+}
+
+.sm-newsContainer {
+  display: flex;
+  flex-direction: row; /* Ensure elements stay on a row */
+
+}
+
+.sm-image-container,
+.sm-text-container {
+  flex: 1; /* Distribute space evenly between image and text */
+}
+
+.sm-text-container {
+  display: flex;
+  flex-direction: row; /* Arrange items in a column */
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Ensure items within the row stay on a row */
+}
+
+.row-item {
+  flex: 1; /* Distribute space evenly between blog items */
+}
+
+.blog-title {
+  display: flex;
+  justify-content: space-between; /* Align blog and date text on a row with space between */
+}
+
+.blogandp {
+  display: flex;
+  flex-direction: column; /* Arrange blog and date text in a column */
+}
+
+.btit {
+  margin-top: 10px; /* Add margin between blog title and content */
+}
+
+.sm-image-container img{
+  width: 320px;
+  height: 320px;
+
+}
+
 
 }

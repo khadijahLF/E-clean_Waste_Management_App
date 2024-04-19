@@ -59,10 +59,6 @@ const Offering = () => {
         </div>
        </div>
 
-       <div>
-
-       </div>
-       
     
     </>
     
