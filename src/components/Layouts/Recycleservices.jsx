@@ -88,13 +88,9 @@ const Recycleservices = () => {
     </div>
 
     <div className='sm-recycle-parent-revcontainer'> 
-        <div className="sm-recycle-container">
-        
-            <div className="recycleimage">
-                <img src="src\assets\Frame 146.png" alt="man" />
-            </div>
-
-            <div className="sm-content-recycle-container">
+        <div className="recycle-container">
+            
+            <div className="content-recycle-container">
 
                 <div className='recyclePara'>
                     <p>What We Do</p>
@@ -103,11 +99,16 @@ const Recycleservices = () => {
                 <h2>Recycling Service</h2>
                 <p>Turn your recyclable materials into cash with our easy-to-use recycling service. Simply schedule pickup or drop off of your recyclables and we will ensure they are responsibly recycled. After we receive your items, you will receive monetary value in your wallet.</p>
                 <button>Download App</button>
-            </div> 
+            </div>
+
+            <div className="recycleimage">
+                <img src="src\assets\Frame 146.png" alt="man" />
+            </div>
+            
 
         </div>
 
-        <div className="sm-recycle-container">
+        <div className="recycle-container">
             
             <div className="content-recycle-container">
 
@@ -127,12 +128,8 @@ const Recycleservices = () => {
 
         </div>
 
-        <div className="sm-recycle-containerC">
+        <div className="recycle-containerC">
             
-                <div className="recycleimage">
-                    <img src="src\assets\Frame 146.png" alt="man" />
-                </div>
-
                 <div className="content-recycle-container">
 
                     <div className='recyclePara'>
@@ -142,11 +139,15 @@ const Recycleservices = () => {
                     <h2>Community Initiatives</h2>
                     <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
                     <button>Download App</button>
-                </div>   
+                </div>  
+
+                 <div className="recycleimage">
+                    <img src="src\assets\Frame 146.png" alt="man" />
+                </div> 
 
         </div>
 
-        <div className="sm-recycle-containerD">
+        <div className="recycle-containerD">
 
                 <div className="content-recycle-container">
 
@@ -166,6 +167,8 @@ const Recycleservices = () => {
         </div>
 
     </div>
+
+  
 
     </>
   );

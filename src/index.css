@@ -1461,7 +1461,7 @@ button {
 
 /*Get Started*/
 .container-get {
-  background: url("src/assets/Mask group.png");
+  background: url("src/assets/getimg.png");
   background-size: contain;
   width: 100%;
   height: 400px;
@@ -2417,7 +2417,7 @@ width: 300px;
 
 .blog-row p {
 
-  width: 23%;
+  width:100%;
   margin: 0;
   padding: 50px 40px 50px;
   font-size: 16px;
@@ -2427,24 +2427,47 @@ width: 300px;
 
 /*News sm css*/
 
-.sm-recycle-parent-revcontainer {
+.recycle-parent-revcontainer{
+  display: none;
+}
+
+.sm-recycle-parent-revcontainer{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  flex-direction: row;
-  width: 760px;
+  flex-direction: column;
 }
 
-.sm-recycle-container{
+.recycle-container {
+  display: flex;
   width: 100%;
-}
-
-.sm-content-recycle-container {
-  width: 550px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  column-gap: 130px;
+  flex: 1;
+  margin-bottom: 70px;
+  background-color: #fff;
+  height: 401px;
   align-items: center;
   justify-content: center;
+  padding: 24px;
 }
 
+.recycle-containerC, .recycle-containerD{
+  padding: 24px;
+}
+
+.recycleimage {
+margin-top: 20px;
+
+}
+
+/*sm-for-getStarted*/
+.content-get p {
+  font-size: 16px;
+  line-height: 24px;
+  width: 500px;
+  font-weight: 400;
+  padding: 24px;
+  text-align: left;
+}
 
 }
