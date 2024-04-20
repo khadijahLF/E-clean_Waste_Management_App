@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
 
 
-      <footer className="sm-footer">
+    <footer className="sm-footer">
       <div className="sm-footer-columnLogo">
         <img src='src\assets\WebLogo.png' alt="logo" className='footer-logo' />
         <p className='sm-p-logo'>Building Zero Waste Communities, <br/>one city at a time.</p>
@@ -61,9 +61,9 @@ const Footer = () => {
       <div className="sm-footer-column">
         <h4>Services</h4>
         <ul>
-          <li>Waste disposal</li>
-          <li>Recycling</li>
-          <li>Community Initiative</li>
+          <li><a href="#">Waste disposal</a></li>
+          <li><a href="#">Recycling</a></li>
+          <li><a href="#">Community Initiative</a></li>
         </ul>
       </div>
       <div className="sm-footer-column">

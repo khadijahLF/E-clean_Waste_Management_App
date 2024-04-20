@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function HomeNav() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       <header className="header">
@@ -29,15 +39,34 @@ function HomeNav() {
             </ul>
           </div>
         </nav>
-        
       </header>
 
       <header className='sm-header'>
-      <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
-      <div className="menu-icon">☰</div> 
+        <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
+        <div className="menu-icon" onClick={toggleMenu}>☰</div>
+        {isMenuOpen && (
+          <nav className="sm-nav">
+            <button className="close-menu" onClick={toggleMenu}>
+              <span className="close-icon">×</span>
+            </button>
+            <ul>
+              <li>
+                <Link to="/" >Home</Link>
+              </li>
+              <li>
+                <Link to="/services" >Services</Link>
+              </li>
+              <li>
+                <Link to="/aboutus">About Us</Link>
+              </li>
+              <li>
+                <Link to="/resources">Resources</Link>
+              </li>
+            </ul>
+          </nav>
+        )}
       </header>
     </>
-
   );
 }
 
