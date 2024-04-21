@@ -11,6 +11,7 @@ import Revolution from '../Layouts/Revolution';
 import HomeNav from '../Layouts/HomeNav';
 import Hero from '../Layouts/Hero';
 import Offering from '../Layouts/Offering';
+import Join from '../Layouts/Join';
 
 
 const Home = ({ title }) => {
@@ -28,6 +29,8 @@ const Home = ({ title }) => {
           <CenteredImageSection/>
 
           <Achievement/>
+
+          <Join/>
 
           <Testimonial/>
 
