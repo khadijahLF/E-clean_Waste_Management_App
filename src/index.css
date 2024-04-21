@@ -2787,7 +2787,7 @@ margin-top: 20px;
   align-items: center;
 }
 
-.content-resources, .content-ser p {
+.content-ser p {
 
   font-size: 18px;
   font-weight: 400;
@@ -2796,7 +2796,21 @@ margin-top: 20px;
 
 }
 
-.content-resources, .content-ser h1{
+.content-resources p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: center;
+}
+
+.content-resources h1{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  text-align: center;
+}
+
+.content-ser h1{
 
   font-size: 40px;
   font-weight: 600;
