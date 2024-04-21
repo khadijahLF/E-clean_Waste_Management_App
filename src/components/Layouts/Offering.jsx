@@ -25,9 +25,8 @@ const Offering = () => {
                         <div className="icon-square">
                             <img src="src\assets\Frame.png" alt="Icon 3" className='icon-img' />
                         </div>
-                        <div className='columnn-img'>
+                       
                         <img src="src\assets\Image 3.png" alt="Image 1" />
-                        </div>
                         
                         <div className='column-text'>
                             <h3>Recycling Service</h3>

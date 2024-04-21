@@ -10,7 +10,7 @@ const Recycleservices = () => {
             
 
             <div className="recycleimage">
-                <img src="src\assets\Frame 146.png" alt="man" />
+                <img src="src\assets\Group 151.png" alt="man" />
             </div>
 
             <div className="content-recycle-container">
@@ -42,15 +42,15 @@ const Recycleservices = () => {
             
 
             <div className="recycleimage">
-                <img src="src\assets\Frame 146.png" alt="man" />
+                <img src="src\assets\Group 151 (1).png" alt="man" />
             </div>
 
         </div>
 
         <div className="recycle-containerC">
             
-                <div className="recycleimage">
-                    <img src="src\assets\Frame 146.png" alt="man" />
+                <div className="recycleimageColored">
+                    <img src="src\assets\Group9.png" alt="man" />
                 </div>
 
                 <div className="content-recycle-container">
@@ -79,8 +79,8 @@ const Recycleservices = () => {
                     <button>Download App</button>
                 </div>   
 
-                <div className="recycleimage">
-                    <img src="src\assets\Frame 146.png" alt="man" />
+                <div className="recycleimageColored">
+                    <img src="src\assets\Group 100.png" alt="man" />
                 </div>
 
         </div>
@@ -102,7 +102,7 @@ const Recycleservices = () => {
             </div>
 
             <div className="recycleimage">
-                <img src="src\assets\Frame 146.png" alt="man" />
+                <img src="src\assets\Group 151.png" alt="man" />
             </div>
             
 
@@ -123,7 +123,7 @@ const Recycleservices = () => {
             
 
             <div className="recycleimage">
-                <img src="src\assets\Frame 146.png" alt="man" />
+                <img src="src\assets\Group 151 (1).png" alt="man" />
             </div>
 
         </div>
@@ -141,8 +141,8 @@ const Recycleservices = () => {
                     <button>Download App</button>
                 </div>  
 
-                 <div className="recycleimage">
-                    <img src="src\assets\Frame 146.png" alt="man" />
+                 <div className="recycleimageColored">
+                    <img src="src\assets\Group9.png" alt="man" />
                 </div> 
 
         </div>
@@ -160,8 +160,8 @@ const Recycleservices = () => {
                     <button>Download App</button>
                 </div>   
 
-                <div className="recycleimage">
-                    <img src="src\assets\Frame 146.png" alt="man" />
+                <div className="recycleimageColored">
+                    <img src="src\assets\Group 100.png" alt="man" />
                 </div>
 
         </div>

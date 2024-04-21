@@ -427,7 +427,8 @@ img {
 }
 
 .footer-logo {
-  width: 135px;
+  width: 113px;
+  height: 27.83px;
   margin-top: 50px;
   margin-bottom: 20px;
 }
@@ -953,12 +954,26 @@ h1 {
   margin-bottom: 20px;
 }
 
+.content-ser p{
+
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+
+}
+
 .content-ser h1 {
   font-size: 60px;
   font-weight: 600;
 }
 
 /*Recycle component css*/
+
+.recycleimageColored{
+  width: 200px;
+  height: 401.87px;
+
+}
 
 .recycle-container {
   display: flex;
@@ -972,6 +987,10 @@ h1 {
 
 .recycleimage {
   width: 373px;
+height: 502.87px;
+left: 909px;
+
+
 }
 
 .recyclePara {
@@ -983,7 +1002,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 60px;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -1736,6 +1755,12 @@ button {
   text-align: center;
   color: #fff;
   margin-bottom: 20px;
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+
 }
 
 .content-resources h1 {
@@ -1753,18 +1778,38 @@ button {
   justify-content: center;
 }
 
-.blog-row {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.blog-row p {
-  width: 23%;
-  margin: 0;
-  padding: 50px 40px 50px;
+.blog-row ul li  {
+  display: inline;
+  padding-right: 90px;
   font-size: 20px;
   line-height: 24.38px;
+  cursor: pointer;
+
 }
+
+
+.blog-row ul li a{
+  text-decoration: none;
+  color: #041c15;
+}
+
+.blog-row ul li a:hover{
+ color: #ffc145;
+}
+
+.blog-row{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.blog-row{
+  margin: 60px 0px;
+}
+
 
 /*Blog Component css*/
 
@@ -1935,7 +1980,6 @@ width: 508px;
 
 .join-heroapp-imgs {
   display: flex;
- 
   width: 150px;
   gap: 0px;
   border-radius: 8.44px 0px 0px 0px;
@@ -2180,7 +2224,7 @@ width: 508px;
 }
 
 .sm-left-text{
-  width: 450px;
+  width: 420px;
 }
 
 .sm-left1 p{
@@ -2221,6 +2265,7 @@ width: 508px;
   padding: 20px; 
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .achievement-item {
@@ -2263,7 +2308,7 @@ width: 508px;
   margin-bottom: 10px; 
   color: #fff;
   font-size: 14px;
-
+  list-style-type: none;
 
 }
 
@@ -2457,12 +2502,16 @@ display: none;
   width: 200px;
 }
 
+
 .sm-row-item {
+  margin-top:-30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
+  margin-bottom: 30px;
 }
+
 
 .sm-image-container {
   flex: 1; /* Distribute space evenly between image and text */
@@ -2506,8 +2555,8 @@ display: none;
   width: 100%;
 }
 .sm-image-container img{
-  width: 410px;
-  height: 410px;
+  width: 400px;
+  height: 400px;
   
   display: flex;
 
@@ -2521,9 +2570,9 @@ display: none;
 
 
 
-.column-wrapper .icon-img{
-  width: 67px;
-  height: 34px;
+.icon-img{
+  width: 20px;
+  height: 20px;
 }
 
 .icon-square {
@@ -2679,6 +2728,7 @@ margin-top: 20px;
 .join-right img{
   margin-top: 50px;
   width: 420px;
+  padding-left: 24px;
 }
 
 .join-head{
@@ -2694,7 +2744,7 @@ margin-top: 20px;
   padding-left: 24px;
 }
 .join-heroapp-imgs{
-  padding-left: 30px;
+  padding-left: 44px;
 
 }
 .paragraph-content{
@@ -2711,5 +2761,82 @@ margin-top: 20px;
   line-height: 24px; 
 }
 
+.blog-row ul li  {
+  display: inline;
+  padding-right: 40px;
+  font-size: 20px;
+  line-height: 24.38px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.blog-row ul li a{
+  text-decoration: none;
+  color: #041c15;
+}
+
+.blog-row ul li a:hover{
+ color: #ffc145;
+}
+
+.blog-row{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-resources, .content-ser p {
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: center;
+
+}
+
+.content-resources, .content-ser h1{
+
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+  text-align: center;
+
+}
+
+.content-get h1{
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: center;
+
+}
+
+.content-get p {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+
+.content-recycle-container h2{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+}
+
+.content-recycle-container p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
 
 }
