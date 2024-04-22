@@ -65,6 +65,35 @@ const News = () => {
     </div>
    </div>
 
+   <div className='sm-newsContainer'>
+   
+
+   <div className="sm-news-container">
+     <div className="sm-image-container">
+       <img src="src\assets\Blogimage1.png" alt="News Image" />
+       <div className="imagetext">Trash Trek: Community Cleanup and <br/> Recycling Drive</div>
+     </div>
+     <div className="sm-text-container">
+       <div className="sm-row">
+         <div className="sm-row-item">
+           <img src="src\assets\Blogimage2.png" alt="News Image" />
+               <div className='sm-blogandp'>
+                   <div className='sm-blog-title'>
+                       <p >Blog</p>
+                       <p className='sm-date'>21 FEB 2024</p>
+                   </div>
+                   <div className='sm-btit'>
+                   <p>10 Tips for Effective Waste Sorting at Home</p>
+                   </div>
+               </div>
+         </div>
+       </div>
+       
+    
+     </div>
+   </div>
+  </div>
+
     </>
   );
 }

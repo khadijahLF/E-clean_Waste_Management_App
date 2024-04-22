@@ -5,7 +5,10 @@ const Offering = () => {
     <>
        <div className='offering-sec'>
             <div className='our-serviceP'> 
-                    <p className=''>Our Services</p>   
+                    <p>Our Services
+                    <hr /> 
+                    </p> 
+                     
             </div>
 
             <div className="offer-header">
@@ -22,7 +25,9 @@ const Offering = () => {
                         <div className="icon-square">
                             <img src="src\assets\Frame.png" alt="Icon 3" className='icon-img' />
                         </div>
+                       
                         <img src="src\assets\Image 3.png" alt="Image 1" />
+                        
                         <div className='column-text'>
                             <h3>Recycling Service</h3>
                             <p>Turn your recyclables into rewards! Simply upload photos, schedule a pickup, and get paid for your contribution to a sustainable future. It's easy, convenient, and environmentally friendly</p>
@@ -59,10 +64,6 @@ const Offering = () => {
         </div>
        </div>
 
-       <div>
-
-       </div>
-       
     
     </>
     

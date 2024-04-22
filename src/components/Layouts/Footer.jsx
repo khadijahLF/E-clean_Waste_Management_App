@@ -50,6 +50,55 @@ const Footer = () => {
         <hr />
           <p>© EClean 2024, All Right Reserved.</p>
       </div>
+
+
+    <footer className="sm-footer">
+      <div className="sm-footer-columnLogo">
+        <img src='src\assets\WebLogo.png' alt="logo" className='footer-logo' />
+        <p className='sm-p-logo'>Building Zero Waste Communities, <br/>one city at a time.</p>
+        
+      </div>
+      <div className="sm-footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Waste disposal</a></li>
+          <li><a href="#">Recycling</a></li>
+          <li><a href="#">Community Initiative</a></li>
+        </ul>
+      </div>
+      <div className="sm-footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li>About Us</li>
+          <li>FAQ</li>
+          <li>Terms of Service</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div className="sm-footer-column">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>Physical address</li>
+          <li>Email address</li>
+          <li>Phone Number</li>
+        </ul>
+        <div className="sm-social-icons">
+        <a href="#"><i className="fab fa-facebook-f"></i></a>
+        <a href="#"><i className="fab fa-twitter"></i></a>
+        <a href="#"><i className="fab fa-instagram"></i></a>
+        <a href="#"><i className="fab fa-linkedin-in"></i></a>
+      </div>
+      </div>
+      <div className='sm-Playstore-imgs'>
+          <img src='src\assets\GooglePlayBlueBorder.png' alt='appleDownload' />
+          <img src='src\assets\GooglePlayBlueBorder (1).png' alt='appleDownload' />
+        </div>
+    </footer>
+
+    <div className="sm-footer-copy">
+        <hr />
+          <p>© EClean 2024, All Right Reserved.</p>
+      </div>
     
     </>
   );

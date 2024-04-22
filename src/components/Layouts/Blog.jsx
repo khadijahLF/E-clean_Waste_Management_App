@@ -5,10 +5,12 @@ const Blog = () => {
     <>
         <div className="blog-container">
         <div className="blog-row">
-            <p>Blog</p>
-            <p>Video</p>
-            <p>Initiative</p>
-            <p>News</p>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Initiative</a></li>
+                <li><a href="">News</a></li>
+            </ul>
         </div>
         </div>
 

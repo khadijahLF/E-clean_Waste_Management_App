@@ -6,7 +6,8 @@ const Testimonial = () => {
     <>
 
     <div className='testimonial-head'>
-      <p className='underline_txt'>Testimonials</p>
+      <p>Testimonials</p>
+      <hr />
       <h2>What Our Users Say</h2>
     </div>
       
