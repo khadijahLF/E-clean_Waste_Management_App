@@ -49,13 +49,13 @@ function MeetTeam(params) {
       >
          
         <SwiperSlide className='swiper-container'>
-          <img src="https://s3-alpha-sig.figma.com/img/b744/979b/13e0629eccacde1d90d656053af49db9?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WRPPhqwtfX-sEz2JsmkimhmF6Mf8g664ZwzZCAXKbz0WAPpHUYvyQJJhlBsYQyJXhDqUDhmmeRQwCsgNKtdGkmuQ7HcZP3vY6OXIiZ2q62W-i9aJgEhh1On0Y20xfg7Z0Bjn05FetIH7-~3JPipXVRq5qQ7uWeTzNchYJrnuNQ0pMLJ0xOvrsrwTtSHIXMsC~p75GEmktoSx~jmSV2y-s-mS94BJIAoWS5nmHmMx5RbRLZ5iy3rEYwP~5IApc5sWcA3Yk9efM1aU8kQWT~RyPwNVhzP7MxKmVSP7E28lTWcEqGB2twsiWzAKcywMUo5ya~lsH7UlU9sGt-qHL4CbYw__" className='swiper-images'/>
+          <img src="https://s3-alpha-sig.figma.com/img/b744/979b/13e0629eccacde1d90d656053af49db9?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pGwGgL7D-fsTEXtJ0r~kPoJ6mvj8OVub02eaEqtZWnQd5Ua5CptwdrJ7LXNQb2Qtw1nt7UscFuMwGSA7Mp2LK6I4vXc1IDtpLMeMmNgwc8-nxeg3oxYmxekKkJjC3Z-I15SnnzQBhMRuX-7PAUaAiju0Goo~O0HEKoedGl4ZRtbnciqHlB2zBez8LeCDAMBkCf-BuMUJo6vo4YfQP3NGSw9Xby6X4KK5t6YE9hdI8idQ0rHG-1gHUnFNF1SPpaTfSoTTGj4YtpfcZVNq27iGnYTV9yTxgsJ93JStVxNmhdaBfWWEvetSyHtjm94QDe2tux4O3gG-uppwVyH8wsnG0g__" className='swiper-images'/>
           <div className="swiper-overlay">Mofeyintoluwa Akanbi
           <p>Product Manager</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="https://s3-alpha-sig.figma.com/img/dc06/de04/04d1d30f385774f7ba496099a5f60cd9?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=in0jJCjtjk3xAre-G~0Vb8gTjUk-csevwowQARTc2xgj52vTHEIn4Sq6nWTyA8eOOSU~I19zgulz~cRdLLfCskabX9SxqOHq-uJ8RZOQTcjKZLcdVyhIyez9b~aEhtTlWJASzAnuhWGAZDqtnm7QnSCNLw16IwBJP7uXLZyz21xOR8Avy8McASewNCXMUixDJITA1cFibiPp~6281gaxDV3ApORnYpTT0BQkMzxt1gUWe4te7RAICroI-IFQUgWB0GqzJq5lFeUfR~9hSKgMc7nLoyOpcbFyzZFDMngjzjBdMFXlr4NsM9pX1WDA7i0B3M74L~RXPIpK274txzeKSw__" className='swiper-images'/>
+          <img src="https://s3-alpha-sig.figma.com/img/dc06/de04/04d1d30f385774f7ba496099a5f60cd9?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nC6nayMj0BBJZ5kGRVqWqF4J6yWK5BTDHHG0objQrzFHSp3bDUnNn4E1AYU5sm0Bz6YcQ6scBcN8rLl073OjbHu6NzBWC9T1jWuXwRqMdnWpajaN5LKNlqjLk4o3urUIC9-HGgBqwmvKpw0TjLK5gs8RLKEdVsy86lS8a9-vSxIW26sPNigMU1xA1jidkOEEv-PhLGM1A8tahKRpCjlPyq07uYGKS8i0E~uCnlWW4~n-NaNqlYBdGTwU-piTND9UBASm3LfwnxCleDKXKMZlwej1YdXUQlGHlD2vwovXmUlkMBTUPwd5~MuBTFo2m7g4cOgyRm1FRL8EtGYYqHHymg__" className='swiper-images'/>
           <div className="swiper-overlay">Modesta Uzomba
           <p>Product Manager</p>
           </div>
@@ -73,7 +73,7 @@ function MeetTeam(params) {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="https://s3-alpha-sig.figma.com/img/9dfb/79f7/6b94850d72bb3b504d8fbf063b173ccb?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lf3jPJY79eirLHx2IYCqzYUlVlJqIFAcEVG3T52-WnD9gdVKRj5bqQx-49sm3OlNr8xdNPyHtJVoGt8GUC5lzfsj7WRoSQlrYPFfVQacEhcYwhXS6aWl95mYKWGlk5TsOG1iUey2lm1tsgHg5dR8ML76CMLem3QVEG2fa~HmYJcrjH332Xm7n7xtkqaionsPwM-ZOIR1v5UvmlHGcNp4iv3pzOjp2zZzPBceQuLIi0QjKchfnR50AvC7ZofAjz1mY8n9qTHFGEk45lL20G~GWHFsE6jW5SfbmGDAXeQjUTJ3yP0Zwf7EJIsmGe2-T7tpgEsgGmmT0HJRml6BcacaPg__" className='swiper-images'/>
+          <img src="https://s3-alpha-sig.figma.com/img/9dfb/79f7/6b94850d72bb3b504d8fbf063b173ccb?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NTozDYopaSxFJuQJ-6gxdgBoPItxfsxE28Zspf7pnVym5EtvNpa~NBkcv55R4vb9jZSTPOfLS6-QK3525Pfh7kF7bRcCYHidVDW9toJQNr1~PgkmZ7gMD27JVynrHvodLOYtUpSH2bJ-HrhXNtpYMjjrVnOl8gCiseJaka-Ro21diwd9~mnGpHRd-371F5pEA8eH3ahCrSKIckZt82Ih1wr1RNylUws993Kc-lGs2PehefBt~MU3HLYWRiXXfxlWLsZEPxGxhOJk4vkAYlND-AFa8QKW3FBFvzY0uUY1mQTTKyngu~5ubhcxxkIPYRg2VA7AZY4G27R1JOXA33H3Tw__" className='swiper-images'/>
           <div className="swiper-overlay">Esraa Beltagy
           <p>Product Designer</p>
           </div>
@@ -97,7 +97,7 @@ function MeetTeam(params) {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="https://s3-alpha-sig.figma.com/img/f676/38d2/0f8d46c0efc273a49a86265866d9f51f?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oeOSJbn7EVCKzz~wdPrjc5I5e4Hk8lrq1E38SOe-yg4VbtAo9qoFgArWjRYCdwtBhYYyUkEebNBG2xzMm2Abg4K5cysReZn5t-g0qYKrYn10RzRxqtQKDU2k9XisB1akQeLCYqImrL9ZxUgd5X0wh9yS~Sn1qzMTGUI~Gohvi557wygR9l2K8zpEYWPHVs6WF48Vx1WAnaGN40yFKIhm-Z5gSKrjIJi~fSozrWZw-jzkfI30ErlX~6c8463pja22LMIAPkleGlIBxvJb~L0ICeeYS57cYKKMAVLZgYQs-ZV-Q1fEe~~jrDhOcsLTV6QHSzWL5HicL1gLZhFvF0S6Ew__" className='swiper-images'/>
+          <img src="https://s3-alpha-sig.figma.com/img/f676/38d2/0f8d46c0efc273a49a86265866d9f51f?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XMXskaIHHJjbUyHAX2RZ~EX0gvAVzrW5-C-YPFeZZcSinXPlP8ELWdQSOhZ2zqTGfAW417AFn1RkXMf6urEDfdzJg-4DXpM4petoS8LyGxUOyuFhtZ~khhj99HYT4v6bsuqJee~rwNw-tGWHrCEzSauSjeoRtYnAar8N~~xrpX6MCbN7ntwn0Kue8aH0JoGuis~BAWggqwXSyAglzl6iqNeCIE2yHwrBFc4S5836Hme0UEWjnca~IbyKyhhuO-94QUC4h3Giy~fOPyghAMWSRY~pSOwvgQL7FVTfD4t4pVK5ZBBvB-O8nEofyN8BqQM2SdQJhZQVbNO~Ob-QtRBQJQ__" className='swiper-images'/>
           <div className="swiper-overlay">Gift Fache
           <p>Cybersecurity expert</p>
           </div>
@@ -127,7 +127,7 @@ function MeetTeam(params) {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="https://s3-alpha-sig.figma.com/img/311e/45fe/10b5a55efefcd45ca6e19b9bce2b01d6?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P8GA6zLpH93XFIIWw-5alsfvXKWpZ5Tg0~bUHy2gEm5M~oDeMVoOUXT6BpqbJD9rLfRtnO5FkmpFLMUFEIOyfo4Gzv5H2y2yBFHXFWLUYr7JcyRfnsPaM85G5FzH9efzQyrq2Khd4uBKwgHHyCfVyck1mAFfaCq8k1UBzsmwYzikRwU6ukBGHeRYNFrvyy1evg4ct0p~SqcFX56VvBGbi3YKfe98aBb-IULWNwbhThl75k6DrRJwBdLm9kZdWr6oMP2AnQlsCtauFRD4HBMBRI905e0uD4r-u7urPbEK2Ol3a3qRIznfhSpFeSVyNK9rwaPuPys4CD0tVC6C-D5p6A__" className='swiper-images'/>
+          <img src="https://s3-alpha-sig.figma.com/img/311e/45fe/10b5a55efefcd45ca6e19b9bce2b01d6?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NurIQkHm4UqOqCQRNJjwWNuDuOJ-tGp3-hL-oQjUOWokf9NWyazwM1w6QhP3tflnHTvSeCrerrRavmxUwfOff3DnzV8E3gPCEV4Dm4NePMtLYGxi-l-OJoSVXkdy1wB4vgChU5O0Gnc4SGow3Z8uRY0C6wO2B~IFJzdmz9Ae6Kx53RWSv8sXZnDIo-qY7bb5TC9M-kj7By1xBj1aSOYkSPvSt0QAokYoh~jAv10rtD~5aswcRYtF1o2~miB83pyGQqSDye~oNY6ssqQNu~a9suHaMXI~nPisiG6TLpnUuel10sobY8R6Aqksrz1EiB1snqzxi6jKVF4qG~SAK62X8Q__" className='swiper-images'/>
           <div className="swiper-overlay">Zambe Arimoro
           <p>Data Scientist</p>
           </div>
@@ -144,12 +144,12 @@ function MeetTeam(params) {
           <p>Mobile app developer</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='swiper-container'>
+        {/* <SwiperSlide className='swiper-container'>
           <img src="/src/assets/Kyenpya.jpg" className='swiper-images'/>
           <div className="swiper-overlay">Kyenpya Gutap
           <p>Frontend  Developer</p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
          
       </Swiper>  
         </div>
