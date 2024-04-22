@@ -36,7 +36,7 @@ function MissionBody() {
     <br /><br />
   
     <div className="rectangles">
-      <div className="rec1"><img src="https://s3-alpha-sig.figma.com/img/c380/22e3/8653884637c60420a8b7826553a9fce8?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n-76CXUloepTuo~A-MJgT3B4DYpRq7ZO3LC6S11DZNjtSGN6ANe1wo~IzdSTnU9SjFQvisZEqPFEG72evc-Sb-cw25NZOUhuarPH2I8U16q9um5GshdyCzlpzwcgXT~lnIINqEn~L6rBlx8GqOmn-kTU~AD5S-D3bhqj1DVx3xJ~2OvQTMUnD3~k1FZyZVd-dnxJog08ieehRBaSPDZhsUvZ9rcFJGYkCJsrIVcycsmpoMj42SJOdnYiaOG7-LT5vJLefSybOCjOQHl5t7SXyJU-ea5zqpJpIJDe0Ca7axbUtRIDS7iV7u1YIxHLIAT5EFZW5npnnlSVOxw-BYn1AQ__" alt="two men shaking hands" /></div>
+      <div className="rec1"><img src="https://s3-alpha-sig.figma.com/img/c380/22e3/8653884637c60420a8b7826553a9fce8?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lc54q7cwpTk~8ruAR~jHMIl~thucbxs61ZzjIXRMOdMBzDoU9GmsyzdFG8yqyeftjhEQ7UoYROL0CgHsZUeKvDI~Or1YEhCsj8AjgkM0yWb06tQevrECm2kVmSYr3ehTQf-vht5wo1dUEIKs9wUXjXVCDRkjssJCEI2Z3hg8QgLgFnjsmw9hRJ8kfXWXO-Wmh4j3gWuwPvJIZs5OeIKTHl7Z4mJIEcOSqYvTfZu5FH37mrEymigQXNwnst9T5sU8fOtjcC1NwQAUJ8OsoWlt3ulyuvCRNgDVl3AEW4vUaOvADiP5TOoGMhbOsX26SHfWMjFw4Yry6Sx9DiWZu785gA__" alt="two men shaking hands" /></div>
       <div className="rec2">
         <div className="rec2-text">
           <h3>Join Us in Making a Difference</h3>
