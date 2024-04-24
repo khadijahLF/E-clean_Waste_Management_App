@@ -20,7 +20,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                         <img src="src/assets/zero-waste-concept-composition 2.png" alt="Image 3" />      
+                         <img src="/assets/zero-waste-concept-composition 2.png" alt="Image 3" />      
                         <div className='blog-column-text'>
 
                             <div className="blog-title2">
@@ -40,7 +40,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                    <img src="src\assets\slider-1 2.png" alt="Image 3" />
+                    <img src="/assets/slider-1 2.png" alt="Image 3" />
 
 
                         <div className='blog-column-text'>
@@ -60,7 +60,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                    <img src="src\assets\OTruck.png" alt="Image 3" />
+                    <img src="/assets/OTruck.png" alt="Image 3" />
                         <div className='blog-column-text'>
 
                             <div className="blog-title2">
@@ -82,7 +82,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                        <img src="src\assets\CardPlastic.png" alt="Image 3" />      
+                        <img src="/assets/CardPlastic.png" alt="Image 3" />      
                         <div className='blog-column-text'>
 
                             <div className="blog-title2">
@@ -100,7 +100,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                    <img src="src\assets\colorplastic.png" alt="Image 3" />
+                    <img src="/assets/colorplastic.png" alt="Image 3" />
 
 
                         <div className='blog-column-text'>
@@ -120,7 +120,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                    <img src="src\assets\11805 1.png" alt="Image 3" />
+                    <img src="/assets/11805 1.png" alt="Image 3" />
                         <div className='blog-column-text'>
 
                             <div className="blog-title2">
@@ -142,7 +142,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                        <img src="src/assets/zero-waste-concept-composition 2.png" alt="Image 3" />      
+                        <img src="/assets/zero-waste-concept-composition 2.png" alt="Image 3" />      
                         <div className='blog-column-text'>
 
                             <div className="blog-title2">
@@ -160,7 +160,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                    <img src="src\assets\slider-1 2.png" alt="Image 3" />
+                    <img src="/assets/slider-1 2.png" alt="Image 3" />
 
 
                         <div className='blog-column-text'>
@@ -180,7 +180,7 @@ const Blog = () => {
                 <div className="blog-column">
 
                     <div className="blog-column-wrapper">
-                    <img src="src\assets\OTruck.png" alt="Image 3" />
+                    <img src="/assets/OTruck.png" alt="Image 3" />
                         <div className='blog-column-text'>
 
                             <div className="blog-title2">

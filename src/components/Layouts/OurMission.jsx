@@ -5,7 +5,7 @@ function OurMission() {
         <div className="rotate-it"></div>
         <img
           className="mission-image"
-          src="/src/assets/woman_and_boy_putting_plastic.jpeg"
+          src="/assets/woman_and_boy_putting_plastic.jpeg"
           alt="woman and boy putting plastic in a bin"
         />
         <div className="mission">

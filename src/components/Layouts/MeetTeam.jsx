@@ -49,49 +49,49 @@ function MeetTeam(params) {
       >
          
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/mofeyin.jpeg" className='swiper-images'/>
+          <img src="/assets/mofeyin.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Mofeyintoluwa Akanbi
           <p>Product Manager</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/modesta.png" className='swiper-images'/>
+          <img src="/assets/modesta.png" className='swiper-images'/>
           <div className="swiper-overlay">Modesta Uzomba
           <p>Product Manager</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/modupeola.jpeg" className='swiper-images'/>
+          <img src="/assets/modupeola.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Modupeola Oladele
           <p>Product Manager</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/esther.jpeg" className='swiper-images'/>
+          <img src="/assets/esther.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Esther Bello
           <p>Product Designer</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/esraa.png" className='swiper-images'/>
+          <img src="/assets/esraa.png" className='swiper-images'/>
           <div className="swiper-overlay">Esraa Beltagy
           <p>Product Designer</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/khadijah.jpeg" className='swiper-images'/>
+          <img src="/assets/khadijah.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Khadijah Lawal-Fowora
           <p>Frontend  Developer</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/Kyenpya.jpg" className='swiper-images'/>
+          <img src="/assets/Kyenpya.jpg" className='swiper-images'/>
           <div className="swiper-overlay">Kyenpya Gutap
           <p>Frontend  Developer</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/winner.jpeg" className='swiper-images'/>
+          <img src="/assets/winner.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Winner Onwuteaka
           <p>Frontend  Developer</p>
           </div>
@@ -103,43 +103,43 @@ function MeetTeam(params) {
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/adetona.jpeg" className='swiper-images'/>
+          <img src="/assets/adetona.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Kehinde Adetona
           <p>Cybersecurity expert</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/aderonke.jpeg" className='swiper-images'/>
+          <img src="/assets/aderonke.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Aderonke Obatuyi
           <p>Data Scientist</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/adenike.jpeg" className='swiper-images'/>
+          <img src="/assets/adenike.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Adenike Adeoye
           <p>Data Scientist</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/adama.jpeg" className='swiper-images'/>
+          <img src="/assets/adama.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Adama	Boubacar Oumarou
           <p>Data Scientist</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/zambe.jpeg" className='swiper-images'/>
+          <img src="/assets/zambe.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Zambe Arimoro
           <p>Data Scientist</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/abigail.jpeg" className='swiper-images'/>
+          <img src="/assets/abigail.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Abigail Ekong
           <p>Data Scientist</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='swiper-container'>
-          <img src="/src/assets/dorcas.jpeg" className='swiper-images'/>
+          <img src="/assets/dorcas.jpeg" className='swiper-images'/>
           <div className="swiper-overlay">Dorcas Owolabi
           <p>Mobile app developer</p>
           </div>

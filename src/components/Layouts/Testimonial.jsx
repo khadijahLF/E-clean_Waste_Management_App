@@ -16,7 +16,7 @@ const Testimonial = () => {
           <div className="stars">★★★★★</div>
           <div className="text">Dorem ipsum dolor sit amet, consect etur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </div>
           <div className="author">
-            <img src="src\assets\african-american-man-wearing-round-glasses (1) 1.png" alt="Author" className="author-image" />
+            <img src="/assets/african-american-man-wearing-round-glasses (1) 1.png" alt="Author" className="author-image" />
             <span className="author-name">John Doe</span>
           </div>
         </div>
@@ -24,7 +24,7 @@ const Testimonial = () => {
           <div className="stars">★★★★★</div>
           <div className="text">Dorem ipsum dolor sit amet, consect etur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </div>
           <div className="author">
-            <img src= "src\assets\Mask group.png" alt="Author" className="author-image" />
+            <img src= "/assets/Mask group.png" alt="Author" className="author-image" />
             <span className="author-name">John Doe</span>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Testimonial = () => {
           <div className="stars">★★★★★</div>
           <div className="text">Dorem ipsum dolor sit amet, consect etur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </div>
           <div className="author">
-            <img src="src\assets\african-american-man-wearing-round-glasses (1) 1.png" alt="Author" className="author-image" />
+            <img src="/assets/african-american-man-wearing-round-glasses (1) 1.png" alt="Author" className="author-image" />
             <span className="author-name">John Doe</span>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Testimonial = () => {
         <div className="stars">★★★★★</div>
         <div className="text">Dorem ipsum dolor sit amet, consect etur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </div>
         <div className="author">
-          <img src="src\assets\confident-african-businesswoman-mockup-psd-smiling-closeup-portr (1) 1.png" alt="Author" className="author-image" />
+          <img src="/assets/confident-african-businesswoman-mockup-psd-smiling-closeup-portr (1) 1.png" alt="Author" className="author-image" />
           <span className="author-name">John Doe</span>
         </div>
       </div>

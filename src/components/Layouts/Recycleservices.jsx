@@ -10,7 +10,7 @@ const Recycleservices = () => {
             
 
             <div className="recycleimage">
-                <img src="src\assets\Group 151.png" alt="man" />
+                <img src="/assets/Group 151.png" alt="man" />
             </div>
 
             <div className="content-recycle-container">
@@ -42,7 +42,7 @@ const Recycleservices = () => {
             
 
             <div className="recycleimage">
-                <img src="src\assets\Group 151 (1).png" alt="man" />
+                <img src="/assets/Group 151 (1).png" alt="man" />
             </div>
 
         </div>
@@ -50,7 +50,7 @@ const Recycleservices = () => {
         <div className="recycle-containerC">
             
                 <div className="recycleimageColored">
-                    <img src="src\assets\Group9.png" alt="man" />
+                    <img src="/assets/Group9.png" alt="man" />
                 </div>
 
                 <div className="content-recycle-container">
@@ -72,7 +72,7 @@ const Recycleservices = () => {
                 </div>   
 
                 <div className="recycleimageColored">
-                    <img src="src\assets\Group 100.png" alt="man" />
+                    <img src="/assets/Group 100.png" alt="man" />
                 </div>
 
         </div>
@@ -94,7 +94,7 @@ const Recycleservices = () => {
             </div>
 
             <div className="recycleimage">
-                <img src="src\assets\Group 151.png" alt="man" />
+                <img src="/assets/Group 151.png" alt="man" />
             </div>
             
 
@@ -115,7 +115,7 @@ const Recycleservices = () => {
             
 
             <div className="recycleimage">
-                <img src="src\assets\Group 151 (1).png" alt="man" />
+                <img src="/assets/Group 151 (1).png" alt="man" />
             </div>
 
         </div>
@@ -134,7 +134,7 @@ const Recycleservices = () => {
                 </div>  
 
                  <div className="recycleimageColored">
-                    <img src="src\assets\Group9.png" alt="man" />
+                    <img src="/assets/Group9.png" alt="man" />
                 </div> 
 
         </div>
@@ -153,7 +153,7 @@ const Recycleservices = () => {
                 </div>   
 
                 <div className="recycleimageColored">
-                    <img src="src\assets\Group 100.png" alt="man" />
+                    <img src="/assets/Group 100.png" alt="man" />
                 </div>
 
         </div>
