@@ -51,16 +51,16 @@ function HomeNav() {
             </button>
             <ul>
               <li>
-                <Link to="/" >Home</Link>
+                <Link to="/" className="active">Home</Link>
               </li>
               <li>
-                <Link to="/services" >Services</Link>
+                <Link to="/services" className="active">Services</Link>
               </li>
               <li>
-                <Link to="/aboutus">About Us</Link>
+                <Link to="/aboutus" className="active">About Us</Link>
               </li>
               <li>
-                <Link to="/resources">Resources</Link>
+                <Link to="/resources" className="active">Resources</Link>
               </li>
             </ul>
           </nav>

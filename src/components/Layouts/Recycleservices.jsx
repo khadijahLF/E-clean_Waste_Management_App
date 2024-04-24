@@ -55,10 +55,6 @@ const Recycleservices = () => {
 
                 <div className="content-recycle-container">
 
-                    <div className='recyclePara'>
-                        <p>What We Do</p>
-                    </div>
-
                     <h2>Community Initiatives</h2>
                     <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
                     <button>Download App</button>
@@ -69,10 +65,6 @@ const Recycleservices = () => {
         <div className="recycle-containerD">
 
                 <div className="content-recycle-container">
-
-                    <div className='recyclePara'>
-                        <p>What We Do</p>
-                    </div>
 
                     <h2>Community Initiatives</h2>
                     <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
