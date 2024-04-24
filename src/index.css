@@ -1032,14 +1032,15 @@ left: 909px;
 .about-us-container {
   background: url("https://s3-alpha-sig.figma.com/img/2744/99f8/50dd606f1df8a47079963d5c2cf711e1?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S3uLbg4v1CQd3IBP3Mqtq1g6kn0EtrqeiN3XitWaodaADlvi1pL7gE~tLhqMvBjcf~yFIhDGvp75LsEE6SSGa-zExS1-ieo8tLsf5B9tzH9cqSyCTh7K9-gPXfoZnE38gPltsHW2cnMhDdfdwrbn45l0upPxNCh1AKCxcZSGGIAa-ZTMDTYnjkhh~RanOuoOCO9NO8ZY4glGl95~E3SJKOhsDfhFn3XMH3ZTuG8uzYgcrI9r3HfGTxajiARa7e8WybC0OhxQfxBknDTeEEBHl~J4WnE8VOUGJzhUEYAr9uaRReCxvTvKDFGo2kNFoqC3aPBhmCl0wIoYOXOFPYKEKA__");
   background-size: cover;
-  width: 1440px;
-  height: 500px;
+  width: 100%;
+  height: 414px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   margin-bottom: 100px;
 }
+ 
 .about-us-content h1 {
   font-size: 60px;
   font-weight: 600;
