@@ -42,7 +42,7 @@ function HomeNav() {
       </header>
 
       <header className='sm-header'>
-        <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
+        <img src="/assets/headerLogo.png" alt="Eclean Logo" />
         <div className="menu-icon" onClick={toggleMenu}>☰</div>
         {isMenuOpen && (
           <nav className="sm-nav">

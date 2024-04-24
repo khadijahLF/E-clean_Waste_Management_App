@@ -29,11 +29,11 @@ function Hero() {
           
       <div  className="sm-heroapp-imgs">
 
-        <img src="src/assets/App Store Black.png" alt="" />
-        <img src="src\assets\Google Play Black.png" alt="" />
+        <img src="/assets/App Store Black.png" alt="" />
+        <img src="/assets/Google Play Black.png" alt="" />
       </div>
 
-          <img src="src\assets\Frame 73.png" alt="Your Image" className="sm-hand-img" />
+          <img src="/assets/Frame 73.png" alt="Your Image" className="sm-hand-img" />
 
         </div>
         
