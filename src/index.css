@@ -94,7 +94,7 @@ nav {
 }
 
 .hero-image {
-  background-image: url("public/Hero image.png");
+  background-image: url("/assets/Hero image.png");
   background-size: cover;
   background-position: center;
   width: 100%;

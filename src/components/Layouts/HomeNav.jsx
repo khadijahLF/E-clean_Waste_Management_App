@@ -16,7 +16,7 @@ function HomeNav() {
     <>
       <header className="header">
         <div className='header-logo'>
-          <img src="src\assets\headerLogo.png" alt="Eclean Logo" />
+          <img src="/assets/headerLogo.png" alt="Eclean Logo" />
         </div>
         <nav className="nav">
           <div className="nav-links">
