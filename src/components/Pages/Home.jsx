@@ -20,11 +20,12 @@ const Home = ({ title }) => {
       <>
 
           <HomeNav/>
+          
           <Hero/>
 
           <Revolution/>
 
-         <Offering/>
+          <Offering/>
       
           <CenteredImageSection/>
 
