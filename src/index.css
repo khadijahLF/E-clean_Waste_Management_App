@@ -2107,7 +2107,7 @@ width: 508px;
 
 
   .small-screen-hero {
-    background-image: url('src/assets/sm.png');
+    background-image: url('/assets/sm.png');
     background-size: cover;
     background-position: center;
     height: 830px;

@@ -36,7 +36,7 @@ const Revolution = () => {
         <h3>Revolutionizing Waste Management Practices</h3>
         <p>We believe that every piece of waste holds the potential for transformation, not just in terms of environmental sustainability but also as a source of economic opportunity. Our goal is to empower individuals and communities to earn from their recyclable items and to facilitate the seamless flow of these materials to recyclers who need them</p>
         <button>Learn More</button>
-        <img src="src\assets\Image 2 (1).png" alt="Image" />
+        <img src="/assets/Image 2 (1).png" alt="Image" />
     </div>
     
     </>
