@@ -23,10 +23,10 @@ const Offering = () => {
 
                     <div className="column-wrapper">
                         <div className="icon-square">
-                            <img src="src\assets\Frame.png" alt="Icon 3" className='icon-img' />
+                            <img src="/assets/Frame.png" alt="Icon 3" className='icon-img' />
                         </div>
                        
-                        <img src="src\assets\Image 3.png" alt="Image 1" />
+                        <img src="/assets/Image 3.png" alt="Image 1" />
                         
                         <div className='column-text'>
                             <h3>Recycling Service</h3>
@@ -38,9 +38,9 @@ const Offering = () => {
 
                     <div className="column-wrapper">
                         <div className="icon-square">
-                            <img src="src\assets\car.png" alt="Icon 3" className='icon-img' />
+                            <img src="/assets/car.png" alt="Icon 3" className='icon-img' />
                         </div>
-                        <img src="src\assets\Image 4 (1).png" alt="Image 2" />
+                        <img src="/assets/Image 4 (1).png" alt="Image 2" />
                         <div className='column-text'>
                             <h3>Waste Disposal Service</h3>
                             <p>Dispose of your waste responsibly with EClean. Find nearby disposal centers, drop-off points, or schedule a pickup. Let's keep our communities clean and green together.</p>
@@ -51,9 +51,9 @@ const Offering = () => {
 
                     <div className="column-wrapper">
                         <div className="icon-square">
-                            <img src="src\assets\person.png" alt="Icon 3" className='icon-img' />
+                            <img src="/assets/person.png" alt="Icon 3" className='icon-img' />
                         </div>
-                        <img src="src\assets\Image 5 (1).png" alt="Image 3" />
+                        <img src="/assets/Image 5 (1).png" alt="Image 3" />
                         <div className='column-text'>
                         <h3>Waste Disposal Service</h3>
                         <p>Join us in making a difference! From educational workshops to cleanup drives, we're committed to fostering a culture of sustainability. Together, let's create a positive impact on our environment.</p>

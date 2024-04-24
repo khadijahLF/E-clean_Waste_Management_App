@@ -13,13 +13,13 @@ const News = () => {
 
     <div className="news-container">
       <div className="image-container">
-        <img src="src\assets\Blogimage1.png" alt="News Image" />
+        <img src="/assets/Blogimage1.png" alt="News Image" />
         <div className="imagetext">Trash Trek: Community Cleanup and <br/> Recycling Drive</div>
       </div>
       <div className="text-container">
         <div className="row">
           <div className="row-item">
-            <img src="src\assets\Blogimage2.png" alt="News Image" />
+            <img src="/assets/Blogimage2.png" alt="News Image" />
                 <div className='blogandp'>
                     <div className='blog-title'>
                         <p >Blog</p>
@@ -33,7 +33,7 @@ const News = () => {
         </div>
         <div className="row">
           <div className="row-item">
-            <img src="src\assets\Blogimage3.png" alt="News Image" />
+            <img src="/assets/Blogimage3.png" alt="News Image" />
             <div className='blogandp'>
                     <div className="blog-titleV">
                         <p>Video</p>
@@ -48,7 +48,7 @@ const News = () => {
         </div>
         <div className="row">
           <div className="row-item">
-            <img src="src\assets\Blogimage4.png" alt="News Image" />
+            <img src="/assets/Blogimage4.png" alt="News Image" />
             <div className='blogandp'>
                     <div className="blog-title">
                         <p>Blog</p>
@@ -70,13 +70,13 @@ const News = () => {
 
    <div className="sm-news-container">
      <div className="sm-image-container">
-       <img src="src\assets\Blogimage1.png" alt="News Image" />
+       <img src="/assets/Blogimage1.png" alt="News Image" />
        <div className="imagetext">Trash Trek: Community Cleanup and <br/> Recycling Drive</div>
      </div>
      <div className="sm-text-container">
        <div className="sm-row">
          <div className="sm-row-item">
-           <img src="src\assets\Blogimage2.png" alt="News Image" />
+           <img src="/assets/Blogimage2.png" alt="News Image" />
                <div className='sm-blogandp'>
                    <div className='sm-blog-title'>
                        <p >Blog</p>

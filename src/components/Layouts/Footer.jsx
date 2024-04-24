@@ -6,11 +6,11 @@ const Footer = () => {
     <>
     <footer className="footer">
       <div className="footer-columnLogo">
-        <img src='src\assets\WebLogo.png' alt="logo" className='footer-logo' />
+        <img src='/assets/WebLogo.png' alt="logo" className='footer-logo' />
         <p className='p-logo'>Building Zero Waste Communities, <br/>one city at a time.</p>
         <div className='Playstore-imgs'>
-          <img src='src\assets\GooglePlayBlueBorder.png' alt='appleDownload' />
-          <img src='src\assets\GooglePlayBlueBorder (1).png' alt='appleDownload' />
+          <img src='/assets/GooglePlayBlueBorder.png' alt='appleDownload' />
+          <img src='/assets/GooglePlayBlueBorder (1).png' alt='appleDownload' />
         </div>
       </div>
       <div className="footer-column">
@@ -54,7 +54,7 @@ const Footer = () => {
 
     <footer className="sm-footer">
       <div className="sm-footer-columnLogo">
-        <img src='src\assets\WebLogo.png' alt="logo" className='footer-logo' />
+        <img src='/assets/WebLogo.png' alt="logo" className='footer-logo' />
         <p className='sm-p-logo'>Building Zero Waste Communities, <br/>one city at a time.</p>
         
       </div>
@@ -90,8 +90,8 @@ const Footer = () => {
       </div>
       </div>
       <div className='sm-Playstore-imgs'>
-          <img src='src\assets\GooglePlayBlueBorder.png' alt='appleDownload' />
-          <img src='src\assets\GooglePlayBlueBorder (1).png' alt='appleDownload' />
+          <img src='/assets/GooglePlayBlueBorder.png' alt='appleDownload' />
+          <img src='/assets/GooglePlayBlueBorder (1).png' alt='appleDownload' />
         </div>
     </footer>
 

@@ -47,14 +47,14 @@ const Join = () => {
         <hr />
       </div>
       <div className="join-right">
-        <img src="src\assets\Image 6.png" alt="Image" />
+        <img src="/assets/Image 6.png" alt="Image" />
       </div>
     </div>
 
     <div  className="join-heroapp-imgs">
 
-        <img src="src/assets/App Store Black.png" alt="" />
-        <img src="src\assets\Google Play Black.png" alt="" />
+        <img src="/assets/App Store Black.png" alt="" />
+        <img src="/assets/Google Play Black.png" alt="" />
 
     </div>
     </>

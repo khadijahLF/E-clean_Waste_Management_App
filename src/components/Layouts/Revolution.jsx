@@ -6,7 +6,7 @@ const Revolution = () => {
     <>
 
     <div className='parent-revcontainer'> 
-      <img className="revimage" src="src\assets\medium-shot-smiley-man-with-helmet 1.png" alt="man" />
+      <img className="revimage" src="/assets/medium-shot-smiley-man-with-helmet 1.png" alt="man" />
             
             <div className='p-text'>
               <p>What We Do</p>

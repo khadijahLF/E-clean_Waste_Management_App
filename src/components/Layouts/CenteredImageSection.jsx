@@ -42,7 +42,7 @@ const CenteredImageSection = ({ imageSrc, leftText, rightText }) => {
             </div>
 
             <div className="centerImg">
-                <img src="src\assets\Group 99.png" alt="Centered Image" />
+                <img src="/assets/Group 99.png" alt="Centered Image" />
             </div>
 
             <div className="right-text">
@@ -118,7 +118,7 @@ const CenteredImageSection = ({ imageSrc, leftText, rightText }) => {
     </div>
 
     <div className="sm-centerImg">
-        <img src="src\assets\Group 99.png" alt="Centered Image" />
+        <img src="/assets/Group 99.png" alt="Centered Image" />
     </div>
 
    

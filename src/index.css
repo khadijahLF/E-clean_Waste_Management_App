@@ -373,7 +373,7 @@ img {
 .achievement-container {
   display: flex;
   height: 280px;
-  background-image: url("../src/assets/Ourachievementimage.png");
+  background-image: url("/assets/Ourachievementimage.png");
   background-size: cover;
   background-position: center;
   width: auto;
@@ -528,7 +528,7 @@ img {
 }
 
 .container-dis {
-  background: url("src/assets/Group 102.png");
+  background: url("/assets/Group 102.png");
   background-size: contain;
   width: 100%;
   height: 500px;
