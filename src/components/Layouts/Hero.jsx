@@ -10,8 +10,8 @@ function Hero() {
 
             <div  className="heroapp-imgs">
 
-            <img src="src/assets/App Store Black.png" alt="" />
-            <img src="src\assets\Google Play Black.png" alt="" />
+            <img src="/assets/App Store Black.png" alt="" />
+            <img src="/assets/Google Play Black.png" alt="" />
 
         </div>
 
