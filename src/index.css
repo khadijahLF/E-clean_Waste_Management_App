@@ -3086,8 +3086,6 @@ text-align: left;
 
 .join-container{
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   width: 100%;
   max-width: 100vw;
@@ -3123,6 +3121,15 @@ width: 300px;
 
 }
 
+.sm-row-item {
+  margin-top:-30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 30px;
+}
+
 .sm-text-container{
   width: 320px;
   padding: 10px;
@@ -3135,6 +3142,14 @@ width: 300px;
   max-width: 100vw;
   padding: 10px;
 
+}
+
+.sm-blogandp{
+  width:120px;
+}
+
+.sm-row-item img{
+  width: 120px;
 }
 
 }
