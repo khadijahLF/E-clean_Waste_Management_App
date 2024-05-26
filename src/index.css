@@ -1716,6 +1716,7 @@ button {
   margin-left: 10px;
 }
 
+
 .icon-img {
   width: 30px;
   height: 30px;
@@ -3015,31 +3016,23 @@ text-align: left;
   }
 
   .small-screen-hero{
-    height: 780px;
+    height: 760px;
   }
 
   /*icon css*/
-  .column-wrapper {
-    position: relative;
-    height: 300px;
-    width: 100%;
-    max-width: 100vw;
-    box-sizing: border-box;
-  }
-
-  .sm-Gen-div{
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100px;
-  }
-
-  .join-container{
-    width: 100%;
-  }
-
-  .join-right img{
-    width: 320px;
-    padding-left: 10px;
+ 
+  .icon-square {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background: hsla(163, 75%, 21%, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
   }
 
 }
