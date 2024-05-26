@@ -3064,11 +3064,13 @@ text-align: left;
 
   .sm-left-text{
     width: 300px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+  }
+
+  .sm-centered-image-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
   /*Achievement CSS for mobile phone*/
