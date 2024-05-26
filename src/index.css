@@ -3209,14 +3209,15 @@ padding-left: -10px;
 }
 
 .blog-column-wrapper{
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
 .blog-row{
-  width: 360px;
+  width: 320px;
   padding: 8px 0px;
   display: flex;
   justify-content: center;
