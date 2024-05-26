@@ -3094,10 +3094,11 @@ text-align: left;
 
 .join-right img{
 width: 320px;
+padding-left: -10px;
 }
 
 .join-heroapp-imgs{
-  padding-left: 24px;
+  padding-left: 30px;
 }
 
 .join-left{
@@ -3185,11 +3186,10 @@ width: 320px;
 /*Blog css for mobile phone*/
 
 .blog-container {
-  width: 100%;
-  max-width: 360px;
+  width: 360px;
   margin: 0 auto;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: center;
 }
 
@@ -3206,6 +3206,12 @@ width: 320px;
 .blog-column {
   width: 300px;
   height: 520px;
+}
+
+.blog-column-wrapper{
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 
