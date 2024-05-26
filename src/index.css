@@ -3186,8 +3186,7 @@ padding-left: -10px;
 /*Blog css for mobile phone*/
 
 .blog-container {
-  width: 360px;
-  margin: 0 auto;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3205,7 +3204,7 @@ padding-left: -10px;
 
 .blog-column {
   width: 300px;
-  height: 520px;
+  height: 550px;
 }
 
 .blog-column-wrapper{
@@ -3215,10 +3214,15 @@ padding-left: -10px;
   flex-direction: column;
 }
 
+ .blog-row ul li {
+  font-size: 18px;
+  padding-right: 15px;
+ }
+
 
 .blog-row{
   width: 320px;
-  padding: 8px 0px;
+  padding: 2px 0px;
   display: flex;
   justify-content: center;
   align-items: center;

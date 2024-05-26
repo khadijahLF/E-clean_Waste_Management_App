@@ -4,14 +4,14 @@ const Blog = () => {
   return (
     <>
         <div className="blog-container">
-        <div className="blog-row">
-            <ul>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Video</a></li>
-                <li><a href="">Initiative</a></li>
-                <li><a href="">News</a></li>
-            </ul>
-        </div>
+            <div className="blog-row">
+                <ul>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Video</a></li>
+                    <li><a href="">Initiative</a></li>
+                    <li><a href="">News</a></li>
+                </ul>
+            </div>
         </div>
 
         <div className='blog-parent'>
