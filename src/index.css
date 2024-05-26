@@ -3063,7 +3063,7 @@ text-align: left;
 
 
   .sm-left-text{
-    width: 300px;
+    width: 320px;
     box-sizing: border-box; 
   }
 
@@ -3080,7 +3080,7 @@ text-align: left;
     padding: 20px;
     margin: 30px;
     height: 100px;
-    width: 280px;
+    width: 320px;
   }
 
 }
