@@ -3004,27 +3004,42 @@ text-align: left;
 
   .sm-rev-div{
     width: 100%;
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
   .sm-rev-div img{
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
     padding: 20px;
     margin-bottom: 30px;
   }
 
   .small-screen-hero{
-    height: 800px;
+    height: 780px;
   }
 
   /*icon css*/
   .column-wrapper {
     position: relative;
-    height: 455px;
+    height: 300px;
     width: 100%;
     max-width: 100vw;
     box-sizing: border-box;
+  }
+
+  .sm-Gen-div{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+  }
+
+  .join-container{
+    width: 100%;
+  }
+
+  .join-right img{
+    width: 320px;
+    padding-left: 10px;
   }
 
 }
