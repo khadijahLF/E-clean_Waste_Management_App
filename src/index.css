@@ -3203,5 +3203,22 @@ width: 320px;
   border-radius: 10px;
 }
 
+.blog-column {
+  width: 360px;
+  height: 520px;
+  border-radius: 16px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #0d5c46;
+}
+
+
+.blog-row{
+  width: 360px;
+  padding: 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 }
