@@ -3093,7 +3093,6 @@ text-align: left;
 .join-right img{
   margin-top: 50px;
   width: 300px;
-  padding-left: 15px;
 }
 
 .join-left{
@@ -3105,7 +3104,8 @@ text-align: left;
 }
 
 .paragraph-content{
-  width:300px;
+  width:280px;
+  box-sizing: border-box;
 }
 
 }
