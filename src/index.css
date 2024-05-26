@@ -2949,3 +2949,26 @@ text-align: left;
 }
 
 }
+
+
+
+
+/*Media Query for mobile phone screens*/
+@media (max-width: 390px) {
+
+  .sm-header{
+    width:100%;
+  }
+
+  .sm-rev-div{
+    width: 100%;
+  }
+
+  .sm-rev-div img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+}

@@ -25,7 +25,7 @@ const Revolution = () => {
     </div>
 
                 
-    {/* New div for 390px screen */}
+    {/* New div for 768px screen */}
     <div className="sm-rev-div">
         <div className='sm-p-text'>
           <p>What We Do
