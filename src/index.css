@@ -3206,14 +3206,8 @@ width: 320px;
 .blog-column {
   width: 300px;
   height: 520px;
- 
 }
 
-.blog-column-wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .blog-row{
   width: 360px;
