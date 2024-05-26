@@ -3169,7 +3169,7 @@ width: 320px;
   font-weight: 400;
   line-height: 21.94px;
   text-align: center;
-  width:300px;
+  width:340px;
   display: flex;
 
 }
@@ -3209,6 +3209,11 @@ width: 320px;
  
 }
 
+.blog-column-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .blog-row{
   width: 360px;
