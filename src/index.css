@@ -3090,11 +3090,15 @@ text-align: left;
   width: 100%;
   max-width: 100vw;
   align-items: center;
-  justify-content: center;
+  justify-content:left;
 }
 
 .join-right img{
 width: 320px;
+}
+
+.join-heroapp-imgs{
+  padding-left: 10px;
 }
 
 .join-left{
