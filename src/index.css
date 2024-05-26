@@ -3029,7 +3029,7 @@ text-align: left;
     margin-right: 24px;
     font-weight: 400;
     box-sizing: border-box;
-    width: 310px;
+    width: 250px;
   }
   
 
@@ -3041,7 +3041,7 @@ text-align: left;
  
   .icon-square {
     position: absolute;
-    top: 160px;
+    top: 150px;
     left: 10px;
     width: 60px;
     height: 60px;
