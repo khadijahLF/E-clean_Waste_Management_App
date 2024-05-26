@@ -3063,8 +3063,12 @@ text-align: left;
 
 
   .sm-left-text{
-    width: 280px;
+    width: 300px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
 
 }
