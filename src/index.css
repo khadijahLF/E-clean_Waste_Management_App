@@ -3126,7 +3126,7 @@ width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 10px;
   margin-bottom: 30px;
 }
 
@@ -3150,6 +3150,11 @@ width: 300px;
 
 .sm-row-item img{
   width: 120px;
+}
+
+.sm-btit p{
+  font-size: 12px;
+  width:10px;
 }
 
 }
