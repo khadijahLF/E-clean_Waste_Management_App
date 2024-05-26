@@ -3079,7 +3079,7 @@ text-align: left;
   .achievement-item {
     width: 420px;
     margin: 10px 0; 
-    max-width: calc(50% - 20px); 
+    max-width: calc(70% - 20px); 
   }
 
   /*phone-join-css*/
@@ -3154,7 +3154,26 @@ width: 300px;
 
 .sm-btit p{
   font-size: 12px;
-  width:100px;
+  width:180px;
+}
+
+/*Service page css for mobile*/
+.content-ser p {
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: center;
+  width:200px;
+
+}
+
+.recycle-container {
+  margin-bottom: -70px;
+}
+
+.content-get p{
+  width: 280px;
 }
 
 }
