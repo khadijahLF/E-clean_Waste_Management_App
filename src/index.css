@@ -2957,6 +2957,11 @@ text-align: left;
 /*Media Query for mobile phone screens*/
 @media (max-width: 390px) {
 
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
   .sm-header{
     width:100%;
   }
