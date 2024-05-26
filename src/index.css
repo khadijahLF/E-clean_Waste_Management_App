@@ -3083,4 +3083,15 @@ text-align: left;
     width: 320px;
   }
 
+  /*phone-join-css*/
+
+.join-container{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  max-width: 100vw;
+  box-sizing: border-box;
+
+}
+
 }
