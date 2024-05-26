@@ -3004,6 +3004,7 @@ text-align: left;
 
   .sm-rev-div{
     width: 100%;
+    padding-left: 15px;
   }
 
   .sm-rev-div img{
@@ -3012,6 +3013,11 @@ text-align: left;
     padding: 20px;
     margin-bottom: 30px;
   }
+
+  .small-screen-hero{
+    height: 800px;
+  }
+
   /*icon css*/
   .column-wrapper {
     position: relative;
