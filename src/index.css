@@ -3016,14 +3016,14 @@ text-align: left;
   }
 
   .small-screen-hero{
-    height: 760px;
+    height: 770px;
   }
 
   /*icon css*/
  
   .icon-square {
     position: absolute;
-    top: 180px;
+    top: 140px;
     left: 10px;
     width: 60px;
     height: 60px;
@@ -3033,6 +3033,14 @@ text-align: left;
     align-items: center;
     margin-left: 10px;
     
+  }
+
+  .column-wrapper {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 
 }
