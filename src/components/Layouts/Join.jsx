@@ -41,7 +41,7 @@ const Join = () => {
           <div className="paragraph-content">
             <h3>Pay or Get Paid</h3>
             <p>For Waste Disposal: Upon pickup or drop-off, pay the disposal fee directly through the app.
-                For Recycling: Get paid for your recycled materials</p>
+                For Recycling: Get paid for your recycled materials.</p>
           </div>
         </div>
         <hr />
