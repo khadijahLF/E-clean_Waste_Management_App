@@ -2960,13 +2960,55 @@ text-align: left;
     width:100%;
   }
 
+  .small-screen-hero{
+    width: 100%;
+  }
+
+  .sm-hero-content h2 {
+    line-height: 38.76px;
+    font-size: 38px;
+    color: #fff;
+    padding: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .sm-hero-content p {
+    font-weight: 18px;
+    padding: 24px;
+    color: #fff;
+    margin-top: -18px;
+  }
+
+.sm-hand-img{
+  width: 350px;
+  padding:  24px;
+  bottom: 19px;
+  position: relative;
+  left: 15%;
+  box-sizing: border-box;
+}
+
+  
+.sm-heroapp-imgs {
+  display: flex;
+  gap: 0px;
+  padding-left: 24px;
+  border-radius: 8.44px 0px 0px 0px;
+}
+
+.sm-heroapp-imgs img {
+  margin-right: 10px;
+  width:100px;
+}
+
   .sm-rev-div{
     width: 100%;
   }
 
   .sm-rev-div img{
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     padding: 20px;
     margin-bottom: 30px;
   }
