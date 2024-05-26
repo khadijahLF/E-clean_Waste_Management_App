@@ -3089,10 +3089,12 @@ text-align: left;
   flex-direction: column;
   width: 100%;
   max-width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .join-right img{
-width: 300px;
+width: 320px;
 }
 
 .join-left{
@@ -3173,7 +3175,7 @@ width: 300px;
 }
 
 .content-get p{
-  width: 280px;
+  width: 310px;
 }
 
 }
