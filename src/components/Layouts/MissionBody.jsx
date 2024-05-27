@@ -36,12 +36,25 @@ function MissionBody() {
     <br /><br />
   
     <div className="rectangles">
-      <div className="rec1"><img src="https://s3-alpha-sig.figma.com/img/c380/22e3/8653884637c60420a8b7826553a9fce8?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lc54q7cwpTk~8ruAR~jHMIl~thucbxs61ZzjIXRMOdMBzDoU9GmsyzdFG8yqyeftjhEQ7UoYROL0CgHsZUeKvDI~Or1YEhCsj8AjgkM0yWb06tQevrECm2kVmSYr3ehTQf-vht5wo1dUEIKs9wUXjXVCDRkjssJCEI2Z3hg8QgLgFnjsmw9hRJ8kfXWXO-Wmh4j3gWuwPvJIZs5OeIKTHl7Z4mJIEcOSqYvTfZu5FH37mrEymigQXNwnst9T5sU8fOtjcC1NwQAUJ8OsoWlt3ulyuvCRNgDVl3AEW4vUaOvADiP5TOoGMhbOsX26SHfWMjFw4Yry6Sx9DiWZu785gA__" alt="two men shaking hands" /></div>
+      <div className="rec1"><img src="/assets/handshake.png" alt="two men shaking hands" /></div>
       <div className="rec2">
         <div className="rec2-text">
           <h3>Join Us in Making a Difference</h3>
           <br />
-          <p>Join EClean in our mission to turn challenges into opportunities, waste into wealth, and create a lasting impact. Let's work together to preserve our environment, empower our communities, and shape a brighter, more sustainable future for AfricaJoin EClean in our mission to turn challenges into opportunities, waste into wealth, and create a lasting impact. Let's work together to preserve our environment, empower our communities, and shape a brighter, more sustainable future for Africa</p>
+          <p>Join EClean in our mission to turn challenges into opportunities, waste into wealth, and create a lasting impact. Let's work together to preserve our environment, empower our communities, and shape a brighter, more sustainable future for Africa.</p>
+          <br />
+          <button className="mission-button">Download the app</button>
+        </div>
+      </div>
+    </div>
+
+    <div className="sm-rectangles">
+      <div className="sm-rec1"><img src="/assets/handshake.png" alt="two men shaking hands" /></div>
+      <div className="sm-rec2">
+        <div className="sm-rec2-text">
+          <h3>Join Us in Making a Difference</h3>
+          <br />
+          <p>Join EClean in our mission to turn challenges into opportunities, waste into wealth, and create a lasting impact. Let's work together to preserve our environment, empower our communities, and shape a brighter, more sustainable future for Africa.</p>
           <br />
           <button className="mission-button">Download the app</button>
         </div>

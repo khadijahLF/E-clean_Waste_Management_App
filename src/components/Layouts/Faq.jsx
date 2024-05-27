@@ -22,7 +22,7 @@ function Faq() {
     >
       <div className="faq-h">
         <h3 className="faq-heading">Frequently Asked Questions</h3>
-        </div>
+      </div>
       <section className="faq-container">
         
       <div className="left-side">

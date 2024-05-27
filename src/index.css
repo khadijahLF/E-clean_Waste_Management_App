@@ -1032,7 +1032,7 @@ left: 909px;
 
 /* About us styling starts here */
 .about-us-container {
-  background: url("/assets/aboutusHero.png");
+  background: url("/assets/AboutUsHeader.png");
   background-size: cover;
   width: 100%;
   height: 414px;
@@ -1040,7 +1040,6 @@ left: 909px;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 100px;
 }
  
 .about-us-content h1 {
@@ -1094,73 +1093,13 @@ left: 909px;
   }
 }
 
-/* Mission section */
-@media only screen and (max-width: 768px) {
-  .mission-container {
-    width: 100%;
-    display: block;
-    flex-wrap: nowrap;
-    /* text-align: left; */
-    height: auto;
-    margin-left: 0;
-  }
-
-  .mission {
-    width: 100px;
-    display: block;
-    text-align: left;
-    height: auto;
-  }
-
-  .mission h3 {
-    font-size: 30px;
-    line-height: 36px;
-    text-align: left;
-    display: block;
-  }
-
-  .mission p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .mission-image,
-  .rotate-it {
-    display: none;
-  }
-}
-
-/* Team section */
-@media only screen and (max-width: 768px) {
-  .team-container {
-    width: 100%;
-  }
-
-  .team-heading {
-    margin-left: 5vw;
-  }
-
-  .team-heading h3 {
-    font-size: 30px;
-    line-height: 36px;
-  }
-
-  .team-text {
-    width: 90%;
-    margin-left: 5vw;
-  }
-
-  .team-pictures {
-    width: 90%;
-    margin-left: 5vw;
-  }
-}
-
+/
 /* Swiper section */
 @media only screen and (max-width: 768px) {
   .swiper-container {
     width: 100%;
     max-width: none;
+  
   }
 
   .swiper-slide {
@@ -1181,22 +1120,6 @@ left: 909px;
   }
 }
 
-/* FAQ section */
-@media only screen and (max-width: 768px) {
-  .faq-h {
-    width: 90%;
-    margin-left: 5vw;
-  }
-
-  .faq-heading {
-    font-size: 30px;
-    line-height: 36px;
-  }
-
-  .faq-container {
-    margin-left: 5vw;
-  }
-}
 .mission-container {
   display: flex;
   flex-wrap: wrap;
@@ -1205,11 +1128,21 @@ left: 909px;
   gap: 2rem;
   padding: 2rem 0;
   padding-bottom: 3rem;
-  float: left;
+  flex-direction: row;
+}
+
+.mission-imageE{
+  width:618px;
+  height: 618px;
+}
+
+.mission hr{
+  width:40px;
+  border: 1px solid #ffc145;
+
 }
 
 .mission {
-  flex: 1;
   width: 512px;
   height: 389px;
   gap: 44px;
@@ -1309,15 +1242,19 @@ left: 909px;
   border-radius: 0px 80px 0px 0px;
   opacity: 0px;
   background-color: rgba(13, 92, 70, 1);
+
 }
 .rec2-text {
   width: 480px;
-  height: 369px;
+  height: 500px;
   margin-top: 50px;
   margin-left: 100px;
-  gap: 60px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 .rec2-text h3 {
+  margin-top: 20px;
   font-size: 40px;
   font-weight: 600;
   line-height: 48.76px;
@@ -1352,6 +1289,13 @@ left: 909px;
   margin-left: 565.5px;
   gap: 20px;
 }
+
+.team-heading h4 hr{
+  width:40px;
+  border: 1px solid #ffc145;
+  margin-left: 110px;
+}
+
 .team-heading h4 {
   font-size: 14px;
   padding-top: 20px;
@@ -2047,6 +1991,10 @@ width: 508px;
 
 }
 
+.sm-mission-container{
+  display: none;
+}
+
 .sm-rev-div{
   display: none;
 
@@ -2058,6 +2006,10 @@ width: 508px;
 .sm-footer-copy, .sm-footer{
   display: none;
 }
+.sm-team-container{
+  display: none;
+}
+
 
 .sm-newsContainer{
   display: none;
@@ -2071,6 +2023,9 @@ width: 508px;
   display: none;
 }
 
+.sm-rectangles{
+  display: none;
+}
 
 /*Media Query for small screen*/
 @media (max-width: 768px) {
@@ -2947,6 +2902,195 @@ font-weight: 400;
 line-height: 24px;
 text-align: left;
 
+}
+
+/*Media query for small screen Mission Page*/
+
+.sm-mission-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.mission p {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.mission{
+
+  width:400px;
+height:441px;
+gap: 44px;
+
+}
+.mission-imageE{
+  width: 382.18px;
+  height: 382.18px;
+}
+
+.mission-container{
+  display: none;
+}
+
+.mission-body{
+  margin-left: 7%;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mission h3{
+
+font-size: 24px;
+font-weight: 600;
+line-height: 29.26px;
+text-align: left;
+
+}
+.mission h4{
+  margin-top: 60px;
+}
+.sm-rectangles{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items:center;
+  justify-content: center;
+  margin-top: 40px;
+ 
+}
+
+.sm-rec1 img{
+
+  width: 382px;
+  height: 342px;
+}
+.sm-rec2-text p{
+  width: 280px;
+}
+
+.sm-rec2-text{
+  width: 382px;
+  height: 380px;
+  left: 24px;
+  gap: 5px;
+  border-radius: 0px 80px 0px 0px;
+  opacity: 0px;
+  background: hsla(163, 75%, 21%, 1);
+  padding-top: 60px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #fff;
+
+}
+
+
+.rectangles{
+  display: none;
+}
+
+/*About Us sm*/
+.about-us-container{
+  width: 100%;
+height: 414px;
+}
+
+/*Meet our team sm-CSs*/
+.team-container{
+  display: none;
+}
+
+.sm-team-container{
+  display:flex;
+  flex-direction: column;
+  margin-left: 0%;
+  height: 650px;
+  background: hsla(163, 100%, 97%, 1);
+  text-align: left;
+  padding-left: 44px;
+  gap: 20px;
+
+}
+
+.sm-team-heading h4{
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+color: hsla(163, 75%, 21%, 1);
+
+
+}
+
+.sm-team-heading h4 hr{
+  width:80px;
+  border: 1px solid #ffc145;
+
+}
+
+.sm-team-pictures{
+  margin-left:0%;
+}
+
+.sm-team-text{
+  width: 400px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+.swiper{
+  margin-left: -100px;
+}
+
+.sm-team-heading h3{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  color: hsla(163, 75%, 6%, 1);
+  margin-top: 15px;
+}
+/*FAQ CSS for portable screen*/
+.faq-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.faq-h{
+  display: flex;
+  margin-left:-2px;
+  padding-left: 25px;
+  flex-direction: column;
+}
+
+.right-side {
+  padding-left:0%;
+}
+.faq-heading{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+  display: flex;
+  width: 100%;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 }
