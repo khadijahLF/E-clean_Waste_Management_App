@@ -3045,9 +3045,10 @@ color: hsla(163, 75%, 21%, 1);
 
 .sm-team-text{
   width: 400px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
 }
 
 .swiper{
@@ -3422,30 +3423,24 @@ margin-left: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  padding-left: -60px;
 }
 
-.sm-team-heading h4{
-  margin-left: -8px;
-}
 
-.sm-team-heading h3{
-  margin-left: -20px;
-}
 
 .sm-team-text p{
-  width:320px;
-  margin-left: -20px;
+  width:280px;
+
 }
 
 .swiper{
-  margin-left: -90px;
+  margin-left: -70px;
 }
 
 .faq-h{
   margin-bottom: 30px;
   width: 250px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .faq-container{
@@ -3453,13 +3448,9 @@ margin-left: -70px;
   padding-left: 15px;
 }
 
-.sm-rec2-text h3{
-  width: 190px;
-  margin-top: -30px;
-}
 
-.sm-rec2-text, p, h3{
-  width: 320px;
-  padding-left: 12px;
+
+.sm-rec2-text, p{
+  width: 200px;
 }
 }
