@@ -66,8 +66,8 @@ const Recycleservices = () => {
 
                 <div className="content-recycle-container">
 
-                    <h2>Community Initiatives</h2>
-                    <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
+                    <h2>Educational Resources</h2>
+                    <p>Explore our educational resources to learn more about waste management, recycling, and sustainable living practices. Access articles, guides, and tips on reducing waste, recycling effectively, DIYs, and making eco-friendly choices. Stay informed and empowered to make a difference.</p>
                     <button>Download App</button>
                 </div>   
 
@@ -147,8 +147,8 @@ const Recycleservices = () => {
                         <p>What We Do</p>
                     </div>
 
-                    <h2>Community Initiatives</h2>
-                    <p>Our community initiatives is aimed at promoting environmental awareness and sustainability. From cleanup drives and recycling workshops to tree planting campaigns and educational events, we're dedicated to making a positive impact. Get involved in building a cleaner, greener future for our communities.</p>
+                    <h2>Educational Resources</h2>
+                    <p>Explore our educational resources to learn more about waste management, recycling, and sustainable living practices. Access articles, guides, and tips on reducing waste, recycling effectively, DIYs, and making eco-friendly choices. Stay informed and empowered to make a difference.</p>
                     <button>Download App</button>
                 </div>   
 
