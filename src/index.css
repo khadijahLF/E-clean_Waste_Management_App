@@ -3190,7 +3190,7 @@ html, body {
   
 
   .small-screen-hero{
-    height: 740px;
+    height: 738px;
   }
 
   /*icon css*/
@@ -3511,7 +3511,20 @@ margin-left: -70px;
 
 }
 
-.date {
-  margin-left: 1px;
+.blog-title2 p::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(255, 193, 69, 1);
+  margin-right: 10px;
+  position: absolute;
+  left: 42px;
+  top: 33%;
+  transform: translateY(-50%);
+}
+
+.sm-date {
+  margin-left:15px;
 }
 }
