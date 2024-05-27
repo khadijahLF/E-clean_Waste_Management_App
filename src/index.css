@@ -3372,4 +3372,65 @@ padding-left: -10px;
   align-items: center;
 }
 
+.sm-mission-container{
+  width: 100%;
+  margin-left: 35px;
+}
+
+.mission-imageE{
+width: 300px;
+margin-left: -70px;
+}
+
+.mission h3{
+  width: 250px;
+}
+
+.mission p{
+  width: 320px;
+}
+
+.mission-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+}
+
+.sm-rectangles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sm-rec1 img{
+  width: 300px;
+}
+.sm-team-container{
+  width:100%;
+}
+
+.sm-rec2{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: -60px;
+}
+
+.sm-team-text p{
+  width:280px;
+
+}
+
+.swiper{
+  margin-left: -70px;
+}
+
+.faq-h{
+  margin-bottom: 30px;
+  width: 250px;
+}
+
 }
