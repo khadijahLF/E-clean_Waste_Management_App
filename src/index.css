@@ -3182,7 +3182,7 @@ html, body {
   
 
   .small-screen-hero{
-    height: 750px;
+    height: 755px;
   }
 
   /*icon css*/
@@ -3203,7 +3203,7 @@ html, body {
 
   .column-wrapper {
     position: relative;
-    height: 480px;
+    height: 465px;
     width: 100%;
     max-width: 100vw;
     box-sizing: border-box;
