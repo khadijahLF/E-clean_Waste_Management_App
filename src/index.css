@@ -1204,6 +1204,7 @@ left: 909px;
   height: auto;
   margin-left: 120px;
   gap: 40px;
+  box-sizing: border-box;
 }
 .mission-body h3 {
   font-size: 24px;
@@ -3422,13 +3423,15 @@ margin-left: -70px;
   line-height: 26px;
 }
 
-.mission-body{
- margin-left: -7%;
- width: 400px;
- display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+.mission-body > div {
+  width: 360px; 
+  margin-left: -80px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+ margin-bottom: -70px; 
 }
 
 
@@ -3437,6 +3440,9 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  flex-direction: column;
+  gap: 30px;
+ 
 }
 
 .sm-rec1 img{
@@ -3473,14 +3479,35 @@ flex-direction: column;
 }
 
 .faq-container{
-  width: 320px;
+  width: 300px;
   padding-left: 15px;
 }
 
 
 
-.sm-rec2-text, p{
+.sm-rec2-text p{
+  width: 260px;
+}
+.sm-rec2-text h3{
   width: 200px;
+}
+
+
+.sm-rec2-text{
+  width: 330px;
+  height: 380px;
+  left: 24px;
+  gap: 5px;
+  border-radius: 0px 80px 0px 0px;
+  opacity: 0px;
+  background: hsla(163, 75%, 21%, 1);
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #fff;
+
 }
 
 .date {
