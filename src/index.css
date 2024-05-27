@@ -3364,6 +3364,9 @@ margin-left: -20px;
   width: 324px;
 }
 
+.blog-column-text{
+  width: 290px;
+}
 .blog-column img {
   width: 280px;
   height: 260px;
@@ -3478,5 +3481,9 @@ flex-direction: column;
 
 .sm-rec2-text, p{
   width: 200px;
+}
+
+.date {
+  margin-left: 1px;
 }
 }
