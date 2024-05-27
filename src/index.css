@@ -321,6 +321,12 @@ img {
 
   }
 
+
+  .recyclePara hr{
+    width:40px;
+    border: 1px solid #ffc145;
+  }
+
 .offering-sec{
   display: flex;
   width: 100%;
@@ -1093,7 +1099,7 @@ left: 909px;
   }
 }
 
-/
+
 /* Swiper section */
 @media only screen and (max-width: 768px) {
   .swiper-container {
@@ -3203,7 +3209,7 @@ html, body {
 
   .column-wrapper {
     position: relative;
-    height: 465px;
+    height: 463px;
     width: 100%;
     max-width: 100vw;
     box-sizing: border-box;
@@ -3247,6 +3253,10 @@ margin-left: -20px;
 
 .join-heroapp-imgs{
   padding-left: 30px;
+}
+
+.join-head-text{
+  width: 100%;
 }
 
 .join-left{
@@ -3331,6 +3341,16 @@ margin-left: -20px;
   width: 330px;
 }
 
+.content-recycle-container div{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-recycle-container p{
+  width: 300px;
+}
 /*Blog css for mobile phone*/
 
 .blog-container {
@@ -3400,12 +3420,14 @@ margin-left: -70px;
 }
 
 .mission-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 310px;
-  padding-left: 14px;
+ margin-left: -7%;
+ width: 400px;
+ display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
+
 
 .sm-rectangles{
   display: flex;

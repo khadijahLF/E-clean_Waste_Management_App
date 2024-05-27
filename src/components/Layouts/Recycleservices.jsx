@@ -16,7 +16,9 @@ const Recycleservices = () => {
             <div className="content-recycle-container">
 
                 <div className='recyclePara'>
-                    <p>What We Do</p>
+                    <p>What We Do
+                        <hr />
+                    </p>
                 </div>
 
                 <h2>Recycling Service</h2>
@@ -32,7 +34,9 @@ const Recycleservices = () => {
             <div className="content-recycle-container">
 
                 <div className='recyclePara'>
-                    <p>Pay for Your Waste</p>
+                    <p>Pay for Your Waste
+                        <hr />
+                    </p>
                 </div>
 
                 <h2>Waste Disposal Services</h2>
@@ -85,7 +89,9 @@ const Recycleservices = () => {
             <div className="content-recycle-container">
 
                 <div className='recyclePara'>
-                    <p>What We Do</p>
+                    <p>What We Do
+                        <hr/>
+                    </p>
                 </div>
 
                 <h2>Recycling Service</h2>
@@ -105,7 +111,10 @@ const Recycleservices = () => {
             <div className="content-recycle-container">
 
                 <div className='recyclePara'>
-                    <p>Pay for Your Waste</p>
+                    <p>Pay for Your Waste
+                    <hr/>
+                    </p>
+                   
                 </div>
 
                 <h2>Waste Disposal Services</h2>
@@ -144,7 +153,8 @@ const Recycleservices = () => {
                 <div className="content-recycle-container">
 
                     <div className='recyclePara'>
-                        <p>What We Do</p>
+                        <p>What We Do
+                        </p>
                     </div>
 
                     <h2>Educational Resources</h2>
