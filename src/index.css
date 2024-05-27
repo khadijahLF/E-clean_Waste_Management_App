@@ -3130,8 +3130,12 @@ html, body {
     margin-top: -18px;
   }
 
+  .column-text p {
+    width: 250px;
+  }
+
 .sm-hand-img{
-  width: 350px;
+  width: 330px;
   padding:  24px;
   bottom: 19px;
   position: relative;
@@ -3178,7 +3182,7 @@ html, body {
   
 
   .small-screen-hero{
-    height: 770px;
+    height: 795px;
   }
 
   /*icon css*/
@@ -3199,7 +3203,7 @@ html, body {
 
   .column-wrapper {
     position: relative;
-    height: 450px;
+    height: 480px;
     width: 100%;
     max-width: 100vw;
     box-sizing: border-box;
